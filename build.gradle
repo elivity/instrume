@@ -1,0 +1,98 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 28
+    defaultConfig {
+        applicationId "com.oskiapps.instrume"
+        minSdkVersion 16
+        targetSdkVersion 28
+        versionCode 103
+        versionName "1.03"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        vectorDrawables.useSupportLibrary = true
+        /*ndk {
+            moduleName "fttw3"
+            //ldLibs "log"
+            //stl "c++_shared"
+            //cFlags "-std=c++11 -frtti -fexceptions -pthread"
+        }*/
+        ndk {
+            abiFilters 'armeabi-v7a', 'arm64-v8a', 'x86', 'x86_64'
+        }
+        externalNativeBuild {
+            cmake {
+                arguments '-DANDROID_TOOLCHAIN=clang'
+                abiFilters 'armeabi-v7a', 'arm64-v8a', 'x86', 'x86_64'
+            }
+        }
+    }
+
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ['libs']
+        }
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    externalNativeBuild {
+        /*cmake {
+            path file('../../../app/src/main/cpp/CMakeLists.txt')
+        }*/
+
+        cmake {
+            path 'src/main/CMakeLists.txt'
+        }
+        /*ndkBuild {
+            // Tells Gradle to find the root ndk-build script in the same
+            // directory as the module's build.gradle file. Gradle requires this
+            // build script to add your ndk-build project as a build dependency and
+            // pull your native sources into your Android project.
+            path "src/main/jni/Android.mk"
+        }*/
+    }
+
+    buildToolsVersion '28.0.3'
+}
+allprojects {
+    repositories {
+        maven { url "https://jitpack.io" }
+    }
+}
+dependencies {
+   // debugCompile 'com.squareup.leakcanary:leakcanary-android:1.5.1'
+    //releaseCompile 'com.squareup.leakcanary:leakcanary-android-no-op:1.5.1'
+    //testCompile 'com.squareup.leakcanary:leakcanary-android-no-op:1.5.1'
+
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'com.android.support:appcompat-v7:28.0.0'
+    implementation "com.android.support:support-compat:28.0.0"
+    implementation 'com.android.support:design:28.0.0'
+    //implementation 'com.android.support.constraint:constraint-layout:1.1.3'
+    implementation 'com.android.support:support-vector-drawable:28.0.0'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+    //implementation files('libs/mp3plugin.jar')
+    // https://mvnrepository.com/artifact/javazoom/jlayer
+    //compile 'javazoom:jlayer:1.0.1'
+    //compile 'com.writingminds:FFmpegAndroid:0.3.2'
+    //compile files('libs/TarsosDSP-Android-latest.jar')
+    //implementation 'com.github.billthefarmer:mididriver:v1.17'
+    implementation 'com.github.billthefarmer:mididriver:v1.16'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    implementation 'androidx.appcompat:appcompat:1.0.2'
+    implementation project(':audio-device')
+    implementation 'com.android.support.constraint:constraint-layout:1.1.3'
+    implementation 'com.google.code.gson:gson:2.8.5'
+
+    implementation 'com.google.android.gms:play-services-ads:17.2.0'
+
+    //compile 'com.github.adrielcafe:AndroidAudioConverter:0.0.8'
+
+    //implementation 'nl.bravobit:android-ffmpeg:1.1.5'
+
+}

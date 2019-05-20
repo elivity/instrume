@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/exportMidiPlayBtn"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:background="@drawable/ic_playbtntry1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/fileNameExportTxt" />
+
+        <EditText
+            android:id="@+id/fileNameExportTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:ems="10"
+            android:fontFamily="@font/roboto_thin"
+            android:inputType="textPersonName"
+            android:text="MyMelody"
+            app:layout_constraintStart_toEndOf="@+id/exportMidiPlayBtn"
+            app:layout_constraintTop_toBottomOf="@+id/fileNameTxtView" />
+
+        <TextView
+            android:id="@+id/fileNameTxtView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/roboto_thin"
+            android:text="File Name"
+            app:layout_constraintStart_toStartOf="@+id/fileNameExportTxt"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/roboto_thin"
+            android:text=".mid"
+            android:textSize="18sp"
+            app:layout_constraintStart_toEndOf="@+id/fileNameExportTxt"
+            app:layout_constraintTop_toTopOf="@+id/fileNameExportTxt" />
+
+        <Button
+            android:id="@+id/okbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:background="@android:drawable/dialog_holo_dark_frame"
+            android:fontFamily="@font/roboto_thin"
+            android:text="Export"
+            app:layout_constraintStart_toEndOf="@+id/cancelbtn"
+            app:layout_constraintTop_toTopOf="@+id/cancelbtn" />
+
+        <Button
+            android:id="@+id/cancelbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:background="@android:drawable/dialog_holo_dark_frame"
+            android:fontFamily="@font/roboto_thin"
+            android:text="Cancel"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/fileNameExportTxt" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

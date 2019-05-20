@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="example.javatpoint.com.optionmenu.MainActivity">
+
+    <item  android:id="@+id/itemMoveUp"
+        android:title="Move up"/>
+    <item  android:id="@+id/itemMoveDown"
+        android:title="Move down"/>
+    <item  android:id="@+id/itemDelete"
+        android:title="delete"
+        app:showAsAction="withText"/>
+    <item  android:id="@+id/itemBypass"
+        android:title="bypass"/>
+</menu>

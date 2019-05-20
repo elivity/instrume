@@ -1,0 +1,539 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLay"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/linearLayout6"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"></LinearLayout>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:padding="10dip"
+        android:text="AutoTune"
+        android:textSize="24sp"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="@+id/canvasFragmentAutoTuneLive" />
+
+
+    <fragment
+        android:id="@+id/canvasFragmentAutoTuneLive"
+        android:name="com.oskiapps.instrume.CanvasFragmentAutoTuneLive"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="5dp"
+        app:layout_constraintBottom_toTopOf="@+id/canvasFragmentPreviewPlayer"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        app:layout_constraintVertical_bias="0.47000003"
+        app:layout_constraintVertical_weight="3" />
+
+    <fragment
+        android:id="@+id/canvasFragmentPreviewPlayer"
+        android:name="com.oskiapps.instrume.CanvasFragmentPreviewPlayer"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/canvasFragmentAutoTuneLive"
+        app:layout_constraintVertical_weight="1" />
+
+    <LinearLayout
+        android:id="@+id/linearLayoutVolumes"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_weight="3"
+        android:fillAfter="false"
+        android:orientation="vertical"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/canvasFragmentPreviewPlayer">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginBottom="8dp"
+            android:text="LIVE Vocal Volume"
+            android:textSize="8sp"
+            app:layout_constraintBottom_toTopOf="@+id/linearLayout3"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <SeekBar
+            android:id="@+id/vocalvolumeSB"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:max="300"
+            android:progress="100"
+            android:thumb="@drawable/ic_cuebartry1" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginBottom="8dp"
+            android:text="LIVE Music Volume"
+            android:textSize="8sp"
+            app:layout_constraintBottom_toTopOf="@+id/linearLayout3"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <SeekBar
+            android:id="@+id/musicvolumeSB"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:max="100"
+            android:progress="50"
+            android:thumb="@drawable/ic_cuebartry1" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginBottom="8dp"
+            android:text="Threshold"
+            android:textSize="8sp"
+            app:layout_constraintBottom_toTopOf="@+id/linearLayout3"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <SeekBar
+            android:id="@+id/midiThreshSB"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:max="100"
+            android:thumb="@drawable/ic_cuebartry1" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayoutFxBox"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_weight="1"
+        android:fillAfter="false"
+        android:orientation="horizontal"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayoutVolumes">
+
+        <LinearLayout
+            android:id="@+id/LinearLayoutAutotune"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:fontFamily="@font/roboto_thin"
+                android:gravity="bottom"
+                android:paddingLeft="5dp"
+                android:text="Tune Scale" />
+
+            <Spinner
+                android:id="@+id/autoTuneLiveSpinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayoutEQ"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_weight="1"
+            android:fillAfter="false"
+            android:orientation="horizontal"
+            android:visibility="visible"
+            app:layout_constraintBottom_toTopOf="@+id/linearLayout5"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <SeekBar
+                    android:id="@+id/test1"
+                    android:layout_width="300dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:max="100"
+                    android:progress="50"
+                    android:rotation="0"
+                    android:thumb="@drawable/ic_cuebartry1" />
+
+                <SeekBar
+                    android:id="@+id/test3"
+                    android:layout_width="300dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:max="100"
+                    android:progress="50"
+                    android:rotation="0"
+                    android:thumb="@drawable/ic_cuebartry1" />
+
+                <SeekBar
+                    android:id="@+id/test2"
+                    android:layout_width="300dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:max="100"
+                    android:progress="50"
+                    android:rotation="0"
+                    android:thumb="@drawable/ic_cuebartry1" />
+
+                <SeekBar
+                    android:id="@+id/test4"
+                    android:layout_width="300dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:max="100"
+                    android:progress="50"
+                    android:rotation="0"
+                    android:thumb="@drawable/ic_cuebartry1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <SeekBar
+                    android:id="@+id/test6"
+                    android:layout_width="300dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:max="100"
+                    android:progress="50"
+                    android:rotation="0"
+                    android:thumb="@drawable/ic_cuebartry1" />
+
+                <SeekBar
+                    android:id="@+id/test7"
+                    android:layout_width="300dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:max="100"
+                    android:progress="50"
+                    android:rotation="0"
+                    android:thumb="@drawable/ic_cuebartry1" />
+
+                <SeekBar
+                    android:id="@+id/test5"
+                    android:layout_width="300dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:max="100"
+                    android:progress="50"
+                    android:rotation="0"
+                    android:thumb="@drawable/ic_cuebartry1" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayoutReverb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:fillAfter="false"
+            android:orientation="vertical"
+            android:visibility="gone"
+            app:layout_constraintBottom_toTopOf="@+id/linearLayout5"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginBottom="8dp"
+                android:text="Dry/Wet"
+                app:layout_constraintBottom_toTopOf="@+id/linearLayout3"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <SeekBar
+                android:id="@+id/reverbDrySB"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:max="100"
+                android:thumb="@drawable/ic_cuebartry1" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="@+id/linearLayout6"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayoutFxBox">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ToggleButton
+                android:id="@+id/fenderToggle"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:background="@android:color/transparent"
+                android:fontFamily="@font/roboto_thin"
+                android:padding="0dp"
+                android:text="FEN&#10;DER"
+                android:textAllCaps="false"
+                android:textFontWeight="200"
+                android:textOff="FEN&#10;DER"
+                android:textOn="FEN&#10;DER"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/recToggle" />
+
+            <ToggleButton
+                android:id="@+id/guitarToggle"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:background="@android:color/transparent"
+                android:fontFamily="@font/roboto_thin"
+                android:padding="0dp"
+                android:text="GUI&#10;TAR"
+                android:textAllCaps="false"
+                android:textFontWeight="200"
+                android:textOff="GUI&#10;TAR"
+                android:textOn="GUI&#10;TAR"
+                android:textSize="24sp"
+                app:layout_constraintEnd_toStartOf="@+id/saxoToggle"
+                app:layout_constraintTop_toTopOf="@+id/saxoToggle" />
+
+            <ToggleButton
+                android:id="@+id/saxoToggle"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:background="@android:color/transparent"
+                android:fontFamily="@font/roboto_thin"
+                android:padding="0dp"
+                android:text="SAXO&#10;FONY"
+                android:textAllCaps="false"
+                android:textFontWeight="200"
+                android:textOff="SAXO&#10;FONY"
+                android:textOn="SAXO&#10;FONY"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toStartOf="@+id/fenderToggle"
+                app:layout_constraintTop_toTopOf="@+id/fenderToggle" />
+
+            <ToggleButton
+                android:id="@+id/drumsToggle"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:fontFamily="@font/roboto_thin"
+                android:padding="0dp"
+                android:text="DRUM"
+                android:textAllCaps="false"
+                android:textFontWeight="200"
+                android:textOff="DRUM"
+                android:textOn="DRUM"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toStartOf="@+id/fenderToggle"
+                app:layout_constraintTop_toTopOf="@+id/fenderToggle" />
+
+            <ToggleButton
+                android:id="@+id/blowToggle"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:fontFamily="@font/roboto_thin"
+                android:padding="0dp"
+                android:text="blow"
+                android:textAllCaps="false"
+                android:textFontWeight="200"
+                android:textOff="blow"
+                android:textOn="blow"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toStartOf="@+id/fenderToggle"
+                app:layout_constraintTop_toTopOf="@+id/fenderToggle" />
+
+            <ToggleButton
+                android:id="@+id/wurleyToggle"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:fontFamily="@font/roboto_thin"
+                android:padding="0dp"
+                android:text="SAX"
+                android:textAllCaps="false"
+                android:textFontWeight="200"
+                android:textOff="Wurley"
+                android:textOn="SAX"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toStartOf="@+id/fenderToggle"
+                app:layout_constraintTop_toTopOf="@+id/fenderToggle" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/backBtn"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:paddingTop="0dp"
+                app:layout_constraintStart_toStartOf="@+id/linearLayout5"
+                app:layout_constraintTop_toTopOf="@+id/recToggle" />
+
+            <Button
+                android:id="@+id/stopBtn"
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:elevation="0dp"
+                android:text="stop"
+                android:textAlignment="center"
+                android:visibility="gone" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/playToggle"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:paddingTop="0dp"
+                app:layout_constraintStart_toEndOf="@+id/backBtn"
+                app:layout_constraintTop_toTopOf="@+id/recToggle" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/recToggle"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="16dp"
+                android:paddingTop="0dp"
+                app:layout_constraintBottom_toTopOf="@+id/saveBtn"
+                app:layout_constraintStart_toEndOf="@+id/playToggle"
+                app:layout_constraintTop_toBottomOf="@+id/linearLayoutFxBox" />
+
+            <EditText
+                android:id="@+id/editMidiInstr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="number"
+                android:text="90" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <ToggleButton
+        android:id="@+id/bypassToggle"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="8dp"
+        android:layout_weight="1"
+        android:text="Start Engine"
+        android:textOff="Start Engine"
+        android:textOn="Stop Engine"
+        android:visibility="gone"
+        app:layout_constraintEnd_toStartOf="@+id/textView5"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/saveBtn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
+        android:layout_marginBottom="8dp"
+        android:text="save"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Spinner
+        android:id="@+id/scaleSpinner"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:spinnerMode="dropdown"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

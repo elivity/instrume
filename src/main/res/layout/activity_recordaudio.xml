@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgrapontrack2">
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/importWavBtn"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@android:drawable/ic_input_add"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/exportBtn"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@android:drawable/ic_menu_share"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <SeekBar
+        android:id="@+id/seekBar2"
+        style="@style/Widget.AppCompat.SeekBar.Discrete"
+        android:layout_width="224dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="32dp"
+        android:indeterminate="false"
+        android:max="10"
+        android:padding="0dp"
+        android:paddingStart="0dp"
+        android:paddingLeft="0dp"
+        android:paddingTop="0dp"
+        android:paddingEnd="0dp"
+        android:paddingRight="0dp"
+        android:paddingBottom="0dp"
+        android:progress="5"
+        android:rotation="270"
+        android:scrollbars="vertical"
+        android:thumb="@drawable/ic_cuebartry1"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@+id/canvasFragment"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/canvasFragment"
+        app:layout_constraintTop_toTopOf="@+id/canvasFragment"
+        tools:indeterminateOnly="false" />
+
+    <fragment
+        android:id="@+id/canvasFragment"
+        android:name="com.oskiapps.instrume.CanvasFragment"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="64dp"
+        android:layout_weight="1"
+        app:layout_constraintBottom_toTopOf="@+id/playBtn"
+        app:layout_constraintEnd_toEndOf="@+id/createWavBtn"
+        app:layout_constraintStart_toStartOf="@+id/backBtn"
+        app:layout_constraintTop_toBottomOf="@+id/importWavBtn" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/recordBtn"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:paddingTop="0dp"
+        app:layout_constraintBottom_toBottomOf="@+id/playBtn"
+        app:layout_constraintStart_toEndOf="@+id/playBtn" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/playBtn"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="32dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/backBtn" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/backBtn"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/playBtn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/playBtn" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/createWavBtn"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/playBtn"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/partialFxBtn"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="2dp"
+        android:background="@android:color/transparent"
+        android:enabled="false"
+        android:fontFamily="@font/roboto_thin"
+        android:text="FX"
+        android:textAllCaps="false"
+        android:textFontWeight="100"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="@+id/playBtn"
+        app:layout_constraintStart_toEndOf="@+id/cueMarkerBtn" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/cueMarkerBtn"
+        android:layout_width="40dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="32dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/recordBtn" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="32dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="@font/roboto_thin"
+        android:text="MP3 VOL"
+        android:textStyle="bold"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/seekBar2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/canvasFragment"
+        app:layout_constraintTop_toTopOf="@+id/seekBar2" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="32dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="6dp"
+        android:layout_marginLeft="6dp"
+        android:fontFamily="@font/roboto_thin"
+        android:text="RAP VOL"
+        android:textStyle="bold"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@+id/seekBar2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/canvasFragment"
+        app:layout_constraintTop_toBottomOf="@+id/seekBar2" />
+
+    <TextView
+        android:id="@+id/textTime"
+        android:layout_width="wrap_content"
+        android:layout_height="24dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:fontFamily="@font/roboto_thin"
+        android:text="00:00"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/canvasFragment" />
+
+    <TextView
+        android:id="@+id/textImportedMp3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="@font/roboto_thin"
+        android:text="Import MP3"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/importWavBtn"
+        app:layout_constraintEnd_toStartOf="@+id/exportBtn"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/importWavBtn"
+        app:layout_constraintTop_toTopOf="@+id/importWavBtn" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
