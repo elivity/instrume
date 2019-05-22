@@ -5,6 +5,7 @@ package com.oskiapps.instrume;
  */
 
 public  class AudioConstants {
+    //todo replace with real ids
     public static String admobId = "";
     public static String admobAdId = "";
 

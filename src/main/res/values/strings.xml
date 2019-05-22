@@ -27,4 +27,7 @@
 
     <string name="min_decay_label_msg">decay(decimal)</string>
     <string name="init_decay_val_msg">0.1</string>
+    <!--todo insert admobid-->
+    <string name="admobid"></string>
+
 </resources>
