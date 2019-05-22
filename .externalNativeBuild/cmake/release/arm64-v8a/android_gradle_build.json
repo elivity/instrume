@@ -1,0 +1,441 @@
+
+{
+	"buildFiles" : 
+	[
+		"C:/newproj/rr129-new/samples/instrume/src/main/CMakeLists.txt",
+		"C:/newproj/rr129-new/CMakeLists.txt"
+	],
+	"cFileExtensions" : [ "c" ],
+	"cleanCommands" : 
+	[
+		"C:\\Users\\Oskar\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\newproj\\rr129-new\\samples\\instrume\\.externalNativeBuild\\cmake\\release\\arm64-v8a --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"autotuner-Release-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "autotuner",
+			"buildCommand" : "C:\\Users\\Oskar\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\newproj\\rr129-new\\samples\\instrume\\.externalNativeBuild\\cmake\\release\\arm64-v8a --target autotuner",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=C:/Users/Oskar/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Oskar/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dautotuner_EXPORTS -IC:\\newproj\\rr129-new\\samples\\debug-utils -IC:\\newproj\\rr129-new\\samples\\..\\include -IC:\\newproj\\rr129-new\\samples\\instrume\\src\\main\\stkeffect\\include -IC:\\newproj\\rr129-new\\samples\\instrume\\src\\main\\cpp\\MyNativeEffects.h -IC:\\newproj\\rr129-new\\samples\\instrume\\src\\main\\cpp\\midi.h -IC:\\newproj\\rr129-new\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC   -Wall -Werror -Ofast    -c ",
+					"src" : "C:/newproj/rr129-new/samples/instrume/src/main/cpp/kiss_fft/kiss_fft.c",
+					"workingDirectory" : "C:/newproj/rr129-new/samples/instrume/.externalNativeBuild/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=C:/Users/Oskar/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Oskar/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dautotuner_EXPORTS -IC:\\newproj\\rr129-new\\samples\\debug-utils -IC:\\newproj\\rr129-new\\samples\\..\\include -IC:\\newproj\\rr129-new\\samples\\instrume\\src\\main\\stkeffect\\include -IC:\\newproj\\rr129-new\\samples\\instrume\\src\\main\\cpp\\MyNativeEffects.h -IC:\\newproj\\rr129-new\\samples\\instrume\\src\\main\\cpp\\midi.h -IC:\\newproj\\rr129-new\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -O2 -DNDEBUG  -fPIC   -Wall -Werror -Ofast  -c ",
+					"src" : "C:/newproj/rr129-new/samples/instrume/src/main/cpp/ece420_lib.cpp",
+					"workingDirectory" : "C:/newproj/rr129-new/samples/instrume/.externalNativeBuild/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=C:/Users/Oskar/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Oskar/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dautotuner_EXPORTS -IC:\\newproj\\rr129-new\\samples\\debug-utils -IC:\\newproj\\rr129-new\\samples\\..\\include -IC:\\newproj\\rr129-new\\samples\\instrume\\src\\main\\stkeffect\\include -IC:\\newproj\\rr129-new\\samples\\instrume\\src\\main\\cpp\\MyNativeEffects.h -IC:\\newproj\\rr129-new\\samples\\instrume\\src\\main\\cpp\\midi.h -IC:\\newproj\\rr129-new\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -O2 -DNDEBUG  -fPIC   -Wall -Werror -Ofast  -c ",
+					"src" : "C:/newproj/rr129-new/samples/instrume/src/main/cpp/ece420_main.cpp",
+					"workingDirectory" : "C:/newproj/rr129-new/samples/instrume/.externalNativeBuild/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=C:/Users/Oskar/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Oskar/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dautotuner_EXPORTS -IC:\\newproj\\rr129-new\\samples\\debug-utils -IC:\\newproj\\rr129-new\\samples\\..\\include -IC:\\newproj\\rr129-new\\samples\\instrume\\src\\main\\stkeffect\\include -IC:\\newproj\\rr129-new\\samples\\instrume\\src\\main\\cpp\\MyNativeEffects.h -IC:\\newproj\\rr129-new\\samples\\instrume\\src\\main\\cpp\\midi.h -IC:\\newproj\\rr129-new\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -O2 -DNDEBUG  -fPIC   -Wall -Werror -Ofast  -c ",
+					"src" : "C:/newproj/rr129-new/samples/instrume/src/main/cpp/audio_common.cpp",
+					"workingDirectory" : "C:/newproj/rr129-new/samples/instrume/.externalNativeBuild/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=C:/Users/Oskar/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Oskar/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dautotuner_EXPORTS -IC:\\newproj\\rr129-new\\samples\\debug-utils -IC:\\newproj\\rr129-new\\samples\\..\\include -IC:\\newproj\\rr129-new\\samples\\instrume\\src\\main\\stkeffect\\include -IC:\\newproj\\rr129-new\\samples\\instrume\\src\\main\\cpp\\MyNativeEffects.h -IC:\\newproj\\rr129-new\\samples\\instrume\\src\\main\\cpp\\midi.h -IC:\\newproj\\rr129-new\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -O2 -DNDEBUG  -fPIC   -Wall -Werror -Ofast  -c ",
+					"src" : "C:/newproj/rr129-new/samples/instrume/src/main/cpp/debug_utils.cpp",
+					"workingDirectory" : "C:/newproj/rr129-new/samples/instrume/.externalNativeBuild/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=C:/Users/Oskar/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Oskar/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dautotuner_EXPORTS -IC:\\newproj\\rr129-new\\samples\\debug-utils -IC:\\newproj\\rr129-new\\samples\\..\\include -IC:\\newproj\\rr129-new\\samples\\instrume\\src\\main\\stkeffect\\include -IC:\\newproj\\rr129-new\\samples\\instrume\\src\\main\\cpp\\MyNativeEffects.h -IC:\\newproj\\rr129-new\\samples\\instrume\\src\\main\\cpp\\midi.h -IC:\\newproj\\rr129-new\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -O2 -DNDEBUG  -fPIC   -Wall -Werror -Ofast  -c ",
+					"src" : "C:/newproj/rr129-new/samples/instrume/src/main/cpp/LiveEffectEngine.cpp",
+					"workingDirectory" : "C:/newproj/rr129-new/samples/instrume/.externalNativeBuild/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=C:/Users/Oskar/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Oskar/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dautotuner_EXPORTS -IC:\\newproj\\rr129-new\\samples\\debug-utils -IC:\\newproj\\rr129-new\\samples\\..\\include -IC:\\newproj\\rr129-new\\samples\\instrume\\src\\main\\stkeffect\\include -IC:\\newproj\\rr129-new\\samples\\instrume\\src\\main\\cpp\\MyNativeEffects.h -IC:\\newproj\\rr129-new\\samples\\instrume\\src\\main\\cpp\\midi.h -IC:\\newproj\\rr129-new\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -O2 -DNDEBUG  -fPIC   -Wall -Werror -Ofast  -c ",
+					"src" : "C:/newproj/rr129-new/samples/instrume/src/main/cpp/Util.cpp",
+					"workingDirectory" : "C:/newproj/rr129-new/samples/instrume/.externalNativeBuild/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=C:/Users/Oskar/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Oskar/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dautotuner_EXPORTS -IC:\\newproj\\rr129-new\\samples\\debug-utils -IC:\\newproj\\rr129-new\\samples\\..\\include -IC:\\newproj\\rr129-new\\samples\\instrume\\src\\main\\stkeffect\\include -IC:\\newproj\\rr129-new\\samples\\instrume\\src\\main\\cpp\\MyNativeEffects.h -IC:\\newproj\\rr129-new\\samples\\instrume\\src\\main\\cpp\\midi.h -IC:\\newproj\\rr129-new\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -O2 -DNDEBUG  -fPIC   -Wall -Werror -Ofast  -c ",
+					"src" : "C:/newproj/rr129-new/samples/instrume/src/main/cpp/jni_bridge.cpp",
+					"workingDirectory" : "C:/newproj/rr129-new/samples/instrume/.externalNativeBuild/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=C:/Users/Oskar/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Oskar/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dautotuner_EXPORTS -IC:\\newproj\\rr129-new\\samples\\debug-utils -IC:\\newproj\\rr129-new\\samples\\..\\include -IC:\\newproj\\rr129-new\\samples\\instrume\\src\\main\\stkeffect\\include -IC:\\newproj\\rr129-new\\samples\\instrume\\src\\main\\cpp\\MyNativeEffects.h -IC:\\newproj\\rr129-new\\samples\\instrume\\src\\main\\cpp\\midi.h -IC:\\newproj\\rr129-new\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -O2 -DNDEBUG  -fPIC   -Wall -Werror -Ofast  -c ",
+					"src" : "C:/newproj/rr129-new/samples/instrume/src/main/cpp/MyNativeEffects.cpp",
+					"workingDirectory" : "C:/newproj/rr129-new/samples/instrume/.externalNativeBuild/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=C:/Users/Oskar/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Oskar/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dautotuner_EXPORTS -IC:\\newproj\\rr129-new\\samples\\debug-utils -IC:\\newproj\\rr129-new\\samples\\..\\include -IC:\\newproj\\rr129-new\\samples\\instrume\\src\\main\\stkeffect\\include -IC:\\newproj\\rr129-new\\samples\\instrume\\src\\main\\cpp\\MyNativeEffects.h -IC:\\newproj\\rr129-new\\samples\\instrume\\src\\main\\cpp\\midi.h -IC:\\newproj\\rr129-new\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -O2 -DNDEBUG  -fPIC   -Wall -Werror -Ofast  -c ",
+					"src" : "C:/newproj/rr129-new/samples/debug-utils/trace.cpp",
+					"workingDirectory" : "C:/newproj/rr129-new/samples/instrume/.externalNativeBuild/cmake/release/arm64-v8a"
+				}
+			],
+			"output" : "C:/newproj/rr129-new/samples/instrume/build/intermediates/cmake/release/obj/arm64-v8a/libautotuner.so",
+			"toolchain" : "180116441"
+		},
+		"midi-Release-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "midi",
+			"buildType" : "release",
+			"output" : "C:/newproj/rr129-new/samples/instrume/src/main/libs/arm64-v8a/libmidi.so",
+			"toolchain" : "180116441"
+		},
+		"oboe-Release-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "oboe",
+			"buildCommand" : "C:\\Users\\Oskar\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\newproj\\rr129-new\\samples\\instrume\\.externalNativeBuild\\cmake\\release\\arm64-v8a --target oboe",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=C:/Users/Oskar/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Oskar/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -I..\\..\\..\\..\\..\\..\\src -I..\\..\\..\\..\\..\\..\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -O2 -DNDEBUG  -fPIC   -std=c++11 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast  -c ",
+					"src" : "C:/newproj/rr129-new/src/aaudio/AAudioLoader.cpp",
+					"workingDirectory" : "C:/newproj/rr129-new/samples/instrume/.externalNativeBuild/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=C:/Users/Oskar/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Oskar/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -I..\\..\\..\\..\\..\\..\\src -I..\\..\\..\\..\\..\\..\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -O2 -DNDEBUG  -fPIC   -std=c++11 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast  -c ",
+					"src" : "C:/newproj/rr129-new/src/aaudio/AudioStreamAAudio.cpp",
+					"workingDirectory" : "C:/newproj/rr129-new/samples/instrume/.externalNativeBuild/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=C:/Users/Oskar/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Oskar/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -I..\\..\\..\\..\\..\\..\\src -I..\\..\\..\\..\\..\\..\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -O2 -DNDEBUG  -fPIC   -std=c++11 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast  -c ",
+					"src" : "C:/newproj/rr129-new/src/common/LatencyTuner.cpp",
+					"workingDirectory" : "C:/newproj/rr129-new/samples/instrume/.externalNativeBuild/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=C:/Users/Oskar/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Oskar/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -I..\\..\\..\\..\\..\\..\\src -I..\\..\\..\\..\\..\\..\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -O2 -DNDEBUG  -fPIC   -std=c++11 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast  -c ",
+					"src" : "C:/newproj/rr129-new/src/common/AudioStream.cpp",
+					"workingDirectory" : "C:/newproj/rr129-new/samples/instrume/.externalNativeBuild/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=C:/Users/Oskar/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Oskar/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -I..\\..\\..\\..\\..\\..\\src -I..\\..\\..\\..\\..\\..\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -O2 -DNDEBUG  -fPIC   -std=c++11 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast  -c ",
+					"src" : "C:/newproj/rr129-new/src/common/AudioStreamBuilder.cpp",
+					"workingDirectory" : "C:/newproj/rr129-new/samples/instrume/.externalNativeBuild/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=C:/Users/Oskar/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Oskar/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -I..\\..\\..\\..\\..\\..\\src -I..\\..\\..\\..\\..\\..\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -O2 -DNDEBUG  -fPIC   -std=c++11 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast  -c ",
+					"src" : "C:/newproj/rr129-new/src/common/Utilities.cpp",
+					"workingDirectory" : "C:/newproj/rr129-new/samples/instrume/.externalNativeBuild/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=C:/Users/Oskar/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Oskar/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -I..\\..\\..\\..\\..\\..\\src -I..\\..\\..\\..\\..\\..\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -O2 -DNDEBUG  -fPIC   -std=c++11 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast  -c ",
+					"src" : "C:/newproj/rr129-new/src/fifo/FifoBuffer.cpp",
+					"workingDirectory" : "C:/newproj/rr129-new/samples/instrume/.externalNativeBuild/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=C:/Users/Oskar/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Oskar/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -I..\\..\\..\\..\\..\\..\\src -I..\\..\\..\\..\\..\\..\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -O2 -DNDEBUG  -fPIC   -std=c++11 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast  -c ",
+					"src" : "C:/newproj/rr129-new/src/fifo/FifoController.cpp",
+					"workingDirectory" : "C:/newproj/rr129-new/samples/instrume/.externalNativeBuild/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=C:/Users/Oskar/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Oskar/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -I..\\..\\..\\..\\..\\..\\src -I..\\..\\..\\..\\..\\..\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -O2 -DNDEBUG  -fPIC   -std=c++11 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast  -c ",
+					"src" : "C:/newproj/rr129-new/src/fifo/FifoControllerBase.cpp",
+					"workingDirectory" : "C:/newproj/rr129-new/samples/instrume/.externalNativeBuild/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=C:/Users/Oskar/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Oskar/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -I..\\..\\..\\..\\..\\..\\src -I..\\..\\..\\..\\..\\..\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -O2 -DNDEBUG  -fPIC   -std=c++11 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast  -c ",
+					"src" : "C:/newproj/rr129-new/src/fifo/FifoControllerIndirect.cpp",
+					"workingDirectory" : "C:/newproj/rr129-new/samples/instrume/.externalNativeBuild/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=C:/Users/Oskar/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Oskar/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -I..\\..\\..\\..\\..\\..\\src -I..\\..\\..\\..\\..\\..\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -O2 -DNDEBUG  -fPIC   -std=c++11 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast  -c ",
+					"src" : "C:/newproj/rr129-new/src/opensles/AudioInputStreamOpenSLES.cpp",
+					"workingDirectory" : "C:/newproj/rr129-new/samples/instrume/.externalNativeBuild/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=C:/Users/Oskar/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Oskar/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -I..\\..\\..\\..\\..\\..\\src -I..\\..\\..\\..\\..\\..\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -O2 -DNDEBUG  -fPIC   -std=c++11 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast  -c ",
+					"src" : "C:/newproj/rr129-new/src/opensles/AudioOutputStreamOpenSLES.cpp",
+					"workingDirectory" : "C:/newproj/rr129-new/samples/instrume/.externalNativeBuild/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=C:/Users/Oskar/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Oskar/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -I..\\..\\..\\..\\..\\..\\src -I..\\..\\..\\..\\..\\..\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -O2 -DNDEBUG  -fPIC   -std=c++11 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast  -c ",
+					"src" : "C:/newproj/rr129-new/src/opensles/AudioStreamBuffered.cpp",
+					"workingDirectory" : "C:/newproj/rr129-new/samples/instrume/.externalNativeBuild/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=C:/Users/Oskar/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Oskar/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -I..\\..\\..\\..\\..\\..\\src -I..\\..\\..\\..\\..\\..\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -O2 -DNDEBUG  -fPIC   -std=c++11 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast  -c ",
+					"src" : "C:/newproj/rr129-new/src/opensles/AudioStreamOpenSLES.cpp",
+					"workingDirectory" : "C:/newproj/rr129-new/samples/instrume/.externalNativeBuild/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=C:/Users/Oskar/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Oskar/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -I..\\..\\..\\..\\..\\..\\src -I..\\..\\..\\..\\..\\..\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -O2 -DNDEBUG  -fPIC   -std=c++11 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast  -c ",
+					"src" : "C:/newproj/rr129-new/src/opensles/EngineOpenSLES.cpp",
+					"workingDirectory" : "C:/newproj/rr129-new/samples/instrume/.externalNativeBuild/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=C:/Users/Oskar/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Oskar/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -I..\\..\\..\\..\\..\\..\\src -I..\\..\\..\\..\\..\\..\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -O2 -DNDEBUG  -fPIC   -std=c++11 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast  -c ",
+					"src" : "C:/newproj/rr129-new/src/opensles/OpenSLESUtilities.cpp",
+					"workingDirectory" : "C:/newproj/rr129-new/samples/instrume/.externalNativeBuild/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=C:/Users/Oskar/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Oskar/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -I..\\..\\..\\..\\..\\..\\src -I..\\..\\..\\..\\..\\..\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -O2 -DNDEBUG  -fPIC   -std=c++11 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast  -c ",
+					"src" : "C:/newproj/rr129-new/src/opensles/OutputMixerOpenSLES.cpp",
+					"workingDirectory" : "C:/newproj/rr129-new/samples/instrume/.externalNativeBuild/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=C:/Users/Oskar/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Oskar/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -I..\\..\\..\\..\\..\\..\\src -I..\\..\\..\\..\\..\\..\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -O2 -DNDEBUG  -fPIC   -std=c++11 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast  -c ",
+					"src" : "C:/newproj/rr129-new/src/common/StabilizedCallback.cpp",
+					"workingDirectory" : "C:/newproj/rr129-new/samples/instrume/.externalNativeBuild/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=C:/Users/Oskar/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Oskar/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -I..\\..\\..\\..\\..\\..\\src -I..\\..\\..\\..\\..\\..\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -O2 -DNDEBUG  -fPIC   -std=c++11 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast  -c ",
+					"src" : "C:/newproj/rr129-new/src/common/Trace.cpp",
+					"workingDirectory" : "C:/newproj/rr129-new/samples/instrume/.externalNativeBuild/cmake/release/arm64-v8a"
+				}
+			],
+			"output" : "C:/newproj/rr129-new/samples/instrume/.externalNativeBuild/cmake/release/arm64-v8a/oboe-bin/liboboe.a",
+			"toolchain" : "180116441"
+		},
+		"stkeffect-Release-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "stkeffect",
+			"buildCommand" : "C:\\Users\\Oskar\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\newproj\\rr129-new\\samples\\instrume\\.externalNativeBuild\\cmake\\release\\arm64-v8a --target stkeffect",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=C:/Users/Oskar/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Oskar/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dstkeffect_EXPORTS -IC:\\newproj\\rr129-new\\samples\\instrume\\src\\main\\stkeffect\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "C:/newproj/rr129-new/samples/instrume/src/main/stkeffect/src/Stk.cpp",
+					"workingDirectory" : "C:/newproj/rr129-new/samples/instrume/.externalNativeBuild/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=C:/Users/Oskar/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Oskar/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dstkeffect_EXPORTS -IC:\\newproj\\rr129-new\\samples\\instrume\\src\\main\\stkeffect\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "C:/newproj/rr129-new/samples/instrume/src/main/stkeffect/src/FreeVerb.cpp",
+					"workingDirectory" : "C:/newproj/rr129-new/samples/instrume/.externalNativeBuild/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=C:/Users/Oskar/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Oskar/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dstkeffect_EXPORTS -IC:\\newproj\\rr129-new\\samples\\instrume\\src\\main\\stkeffect\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "C:/newproj/rr129-new/samples/instrume/src/main/stkeffect/src/Delay.cpp",
+					"workingDirectory" : "C:/newproj/rr129-new/samples/instrume/.externalNativeBuild/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=C:/Users/Oskar/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Oskar/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dstkeffect_EXPORTS -IC:\\newproj\\rr129-new\\samples\\instrume\\src\\main\\stkeffect\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "C:/newproj/rr129-new/samples/instrume/src/main/stkeffect/src/OnePole.cpp",
+					"workingDirectory" : "C:/newproj/rr129-new/samples/instrume/.externalNativeBuild/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=C:/Users/Oskar/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Oskar/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dstkeffect_EXPORTS -IC:\\newproj\\rr129-new\\samples\\instrume\\src\\main\\stkeffect\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "C:/newproj/rr129-new/samples/instrume/src/main/stkeffect/src/BiQuad.cpp",
+					"workingDirectory" : "C:/newproj/rr129-new/samples/instrume/.externalNativeBuild/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=C:/Users/Oskar/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Oskar/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dstkeffect_EXPORTS -IC:\\newproj\\rr129-new\\samples\\instrume\\src\\main\\stkeffect\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "C:/newproj/rr129-new/samples/instrume/src/main/stkeffect/src/NRev.cpp",
+					"workingDirectory" : "C:/newproj/rr129-new/samples/instrume/.externalNativeBuild/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=C:/Users/Oskar/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Oskar/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dstkeffect_EXPORTS -IC:\\newproj\\rr129-new\\samples\\instrume\\src\\main\\stkeffect\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "C:/newproj/rr129-new/samples/instrume/src/main/stkeffect/src/PitShift.cpp",
+					"workingDirectory" : "C:/newproj/rr129-new/samples/instrume/.externalNativeBuild/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=C:/Users/Oskar/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Oskar/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dstkeffect_EXPORTS -IC:\\newproj\\rr129-new\\samples\\instrume\\src\\main\\stkeffect\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "C:/newproj/rr129-new/samples/instrume/src/main/stkeffect/src/DelayL.cpp",
+					"workingDirectory" : "C:/newproj/rr129-new/samples/instrume/.externalNativeBuild/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=C:/Users/Oskar/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Oskar/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dstkeffect_EXPORTS -IC:\\newproj\\rr129-new\\samples\\instrume\\src\\main\\stkeffect\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "C:/newproj/rr129-new/samples/instrume/src/main/stkeffect/src/LentPitShift.cpp",
+					"workingDirectory" : "C:/newproj/rr129-new/samples/instrume/.externalNativeBuild/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=C:/Users/Oskar/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Oskar/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dstkeffect_EXPORTS -IC:\\newproj\\rr129-new\\samples\\instrume\\src\\main\\stkeffect\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "C:/newproj/rr129-new/samples/instrume/src/main/stkeffect/src/Saxofony.cpp",
+					"workingDirectory" : "C:/newproj/rr129-new/samples/instrume/.externalNativeBuild/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=C:/Users/Oskar/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Oskar/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dstkeffect_EXPORTS -IC:\\newproj\\rr129-new\\samples\\instrume\\src\\main\\stkeffect\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "C:/newproj/rr129-new/samples/instrume/src/main/stkeffect/src/OneZero.cpp",
+					"workingDirectory" : "C:/newproj/rr129-new/samples/instrume/.externalNativeBuild/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=C:/Users/Oskar/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Oskar/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dstkeffect_EXPORTS -IC:\\newproj\\rr129-new\\samples\\instrume\\src\\main\\stkeffect\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "C:/newproj/rr129-new/samples/instrume/src/main/stkeffect/src/Envelope.cpp",
+					"workingDirectory" : "C:/newproj/rr129-new/samples/instrume/.externalNativeBuild/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=C:/Users/Oskar/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Oskar/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dstkeffect_EXPORTS -IC:\\newproj\\rr129-new\\samples\\instrume\\src\\main\\stkeffect\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "C:/newproj/rr129-new/samples/instrume/src/main/stkeffect/src/SineWave.cpp",
+					"workingDirectory" : "C:/newproj/rr129-new/samples/instrume/.externalNativeBuild/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=C:/Users/Oskar/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Oskar/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dstkeffect_EXPORTS -IC:\\newproj\\rr129-new\\samples\\instrume\\src\\main\\stkeffect\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "C:/newproj/rr129-new/samples/instrume/src/main/stkeffect/src/Noise.cpp",
+					"workingDirectory" : "C:/newproj/rr129-new/samples/instrume/.externalNativeBuild/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=C:/Users/Oskar/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Oskar/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dstkeffect_EXPORTS -IC:\\newproj\\rr129-new\\samples\\instrume\\src\\main\\stkeffect\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "C:/newproj/rr129-new/samples/instrume/src/main/stkeffect/src/Rhodey.cpp",
+					"workingDirectory" : "C:/newproj/rr129-new/samples/instrume/.externalNativeBuild/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=C:/Users/Oskar/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Oskar/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dstkeffect_EXPORTS -IC:\\newproj\\rr129-new\\samples\\instrume\\src\\main\\stkeffect\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "C:/newproj/rr129-new/samples/instrume/src/main/stkeffect/src/Wurley.cpp",
+					"workingDirectory" : "C:/newproj/rr129-new/samples/instrume/.externalNativeBuild/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=C:/Users/Oskar/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Oskar/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dstkeffect_EXPORTS -IC:\\newproj\\rr129-new\\samples\\instrume\\src\\main\\stkeffect\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "C:/newproj/rr129-new/samples/instrume/src/main/stkeffect/src/BlowHole.cpp",
+					"workingDirectory" : "C:/newproj/rr129-new/samples/instrume/.externalNativeBuild/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=C:/Users/Oskar/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Oskar/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dstkeffect_EXPORTS -IC:\\newproj\\rr129-new\\samples\\instrume\\src\\main\\stkeffect\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "C:/newproj/rr129-new/samples/instrume/src/main/stkeffect/src/FM.cpp",
+					"workingDirectory" : "C:/newproj/rr129-new/samples/instrume/.externalNativeBuild/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=C:/Users/Oskar/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Oskar/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dstkeffect_EXPORTS -IC:\\newproj\\rr129-new\\samples\\instrume\\src\\main\\stkeffect\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "C:/newproj/rr129-new/samples/instrume/src/main/stkeffect/src/FileRead.cpp",
+					"workingDirectory" : "C:/newproj/rr129-new/samples/instrume/.externalNativeBuild/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=C:/Users/Oskar/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Oskar/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dstkeffect_EXPORTS -IC:\\newproj\\rr129-new\\samples\\instrume\\src\\main\\stkeffect\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "C:/newproj/rr129-new/samples/instrume/src/main/stkeffect/src/FileLoop.cpp",
+					"workingDirectory" : "C:/newproj/rr129-new/samples/instrume/.externalNativeBuild/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=C:/Users/Oskar/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Oskar/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dstkeffect_EXPORTS -IC:\\newproj\\rr129-new\\samples\\instrume\\src\\main\\stkeffect\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "C:/newproj/rr129-new/samples/instrume/src/main/stkeffect/src/ADSR.cpp",
+					"workingDirectory" : "C:/newproj/rr129-new/samples/instrume/.externalNativeBuild/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=C:/Users/Oskar/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Oskar/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dstkeffect_EXPORTS -IC:\\newproj\\rr129-new\\samples\\instrume\\src\\main\\stkeffect\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "C:/newproj/rr129-new/samples/instrume/src/main/stkeffect/src/TwoZero.cpp",
+					"workingDirectory" : "C:/newproj/rr129-new/samples/instrume/.externalNativeBuild/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=C:/Users/Oskar/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Oskar/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dstkeffect_EXPORTS -IC:\\newproj\\rr129-new\\samples\\instrume\\src\\main\\stkeffect\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "C:/newproj/rr129-new/samples/instrume/src/main/stkeffect/src/FileWvIn.cpp",
+					"workingDirectory" : "C:/newproj/rr129-new/samples/instrume/.externalNativeBuild/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=C:/Users/Oskar/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Oskar/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dstkeffect_EXPORTS -IC:\\newproj\\rr129-new\\samples\\instrume\\src\\main\\stkeffect\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "C:/newproj/rr129-new/samples/instrume/src/main/stkeffect/rawwaves/sine.c",
+					"workingDirectory" : "C:/newproj/rr129-new/samples/instrume/.externalNativeBuild/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=C:/Users/Oskar/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Oskar/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dstkeffect_EXPORTS -IC:\\newproj\\rr129-new\\samples\\instrume\\src\\main\\stkeffect\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "C:/newproj/rr129-new/samples/instrume/src/main/stkeffect/src/Guitar.cpp",
+					"workingDirectory" : "C:/newproj/rr129-new/samples/instrume/.externalNativeBuild/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=C:/Users/Oskar/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Oskar/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dstkeffect_EXPORTS -IC:\\newproj\\rr129-new\\samples\\instrume\\src\\main\\stkeffect\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "C:/newproj/rr129-new/samples/instrume/src/main/stkeffect/src/Twang.cpp",
+					"workingDirectory" : "C:/newproj/rr129-new/samples/instrume/.externalNativeBuild/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=C:/Users/Oskar/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Oskar/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dstkeffect_EXPORTS -IC:\\newproj\\rr129-new\\samples\\instrume\\src\\main\\stkeffect\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "C:/newproj/rr129-new/samples/instrume/src/main/stkeffect/src/DelayA.cpp",
+					"workingDirectory" : "C:/newproj/rr129-new/samples/instrume/.externalNativeBuild/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=C:/Users/Oskar/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Oskar/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dstkeffect_EXPORTS -IC:\\newproj\\rr129-new\\samples\\instrume\\src\\main\\stkeffect\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "C:/newproj/rr129-new/samples/instrume/src/main/stkeffect/src/Fir.cpp",
+					"workingDirectory" : "C:/newproj/rr129-new/samples/instrume/.externalNativeBuild/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=C:/Users/Oskar/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Oskar/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dstkeffect_EXPORTS -IC:\\newproj\\rr129-new\\samples\\instrume\\src\\main\\stkeffect\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "C:/newproj/rr129-new/samples/instrume/src/main/stkeffect/src/Phonemes.cpp",
+					"workingDirectory" : "C:/newproj/rr129-new/samples/instrume/.externalNativeBuild/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=C:/Users/Oskar/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Oskar/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dstkeffect_EXPORTS -IC:\\newproj\\rr129-new\\samples\\instrume\\src\\main\\stkeffect\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "C:/newproj/rr129-new/samples/instrume/src/main/stkeffect/src/Drummer.cpp",
+					"workingDirectory" : "C:/newproj/rr129-new/samples/instrume/.externalNativeBuild/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=C:/Users/Oskar/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Oskar/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dstkeffect_EXPORTS -IC:\\newproj\\rr129-new\\samples\\instrume\\src\\main\\stkeffect\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "C:/newproj/rr129-new/samples/instrume/src/main/stkeffect/src/Brass.cpp",
+					"workingDirectory" : "C:/newproj/rr129-new/samples/instrume/.externalNativeBuild/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=C:/Users/Oskar/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Oskar/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dstkeffect_EXPORTS -IC:\\newproj\\rr129-new\\samples\\instrume\\src\\main\\stkeffect\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "C:/newproj/rr129-new/samples/instrume/src/main/stkeffect/src/PoleZero.cpp",
+					"workingDirectory" : "C:/newproj/rr129-new/samples/instrume/.externalNativeBuild/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=C:/Users/Oskar/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Oskar/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dstkeffect_EXPORTS -IC:\\newproj\\rr129-new\\samples\\instrume\\src\\main\\stkeffect\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "C:/newproj/rr129-new/samples/instrume/src/main/stkeffect/src/RtMidi.cpp",
+					"workingDirectory" : "C:/newproj/rr129-new/samples/instrume/.externalNativeBuild/cmake/release/arm64-v8a"
+				}
+			],
+			"output" : "C:/newproj/rr129-new/samples/instrume/build/intermediates/cmake/release/obj/arm64-v8a/libstkeffect.so",
+			"toolchain" : "180116441"
+		}
+	},
+	"toolchains" : 
+	{
+		"180116441" : 
+		{
+			"cCompilerExecutable" : "C:/Users/Oskar/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
+			"cppCompilerExecutable" : "C:/Users/Oskar/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
+		}
+	}
+}

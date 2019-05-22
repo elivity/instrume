@@ -1,0 +1,34 @@
+{
+  "buildFiles": [
+    "C:\\newproj\\rr129-new\\samples\\instrume\\src\\main\\CMakeLists.txt",
+    "C:\\newproj\\rr129-new\\CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "C:\\Users\\Oskar\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\newproj\\rr129-new\\samples\\instrume\\.externalNativeBuild\\cmake\\debug\\x86 --target clean"
+  ],
+  "libraries": {
+    "stkeffect-Debug-x86": {
+      "artifactName": "stkeffect",
+      "buildCommand": "C:\\Users\\Oskar\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\newproj\\rr129-new\\samples\\instrume\\.externalNativeBuild\\cmake\\debug\\x86 --target stkeffect",
+      "abi": "x86",
+      "output": "C:\\newproj\\rr129-new\\samples\\instrume\\build\\intermediates\\cmake\\debug\\obj\\x86\\libstkeffect.so"
+    },
+    "oboe-Debug-x86": {
+      "artifactName": "oboe",
+      "buildCommand": "C:\\Users\\Oskar\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\newproj\\rr129-new\\samples\\instrume\\.externalNativeBuild\\cmake\\debug\\x86 --target oboe",
+      "abi": "x86",
+      "output": "C:\\newproj\\rr129-new\\samples\\instrume\\.externalNativeBuild\\cmake\\debug\\x86\\oboe-bin\\liboboe.a"
+    },
+    "autotuner-Debug-x86": {
+      "artifactName": "autotuner",
+      "buildCommand": "C:\\Users\\Oskar\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\newproj\\rr129-new\\samples\\instrume\\.externalNativeBuild\\cmake\\debug\\x86 --target autotuner",
+      "abi": "x86",
+      "output": "C:\\newproj\\rr129-new\\samples\\instrume\\build\\intermediates\\cmake\\debug\\obj\\x86\\libautotuner.so"
+    },
+    "midi-Debug-x86": {
+      "artifactName": "midi",
+      "abi": "x86",
+      "output": "C:\\newproj\\rr129-new\\samples\\instrume\\src\\main\\libs\\x86\\libmidi.so"
+    }
+  }
+}

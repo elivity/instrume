@@ -41,7 +41,6 @@ import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.SeekBar;
 import android.widget.Spinner;
-import android.widget.TextView;
 import android.widget.Toast;
 import android.widget.ToggleButton;
 
@@ -92,7 +91,7 @@ import com.google.android.gms.ads.InterstitialAd;
  */
 
 
-public  class DialogAutoTuneLiveHelper extends AppCompatActivity implements ActivityCompat.OnRequestPermissionsResultCallback, CanvasFragmentPreviewPlayer.OnCompleteListener {
+public  class MainActivity extends AppCompatActivity implements ActivityCompat.OnRequestPermissionsResultCallback, CanvasFragmentPreviewPlayer.OnCompleteListener {
     private static final int AUDIO_EFFECT_REQUEST = 0;
     private static final int OBOE_API_AAUDIO = 0;
     private static final int OBOE_API_OPENSL_ES = 1;
@@ -191,14 +190,6 @@ public  class DialogAutoTuneLiveHelper extends AppCompatActivity implements Acti
         mInterstitialAd.setAdUnitId("ca-app-pub-1180058241060000/1029488717");
         mInterstitialAd.loadAd(new AdRequest.Builder().build());
 
-        final ToggleButton bypassToggleBtn = (ToggleButton) findViewById(R.id.bypassToggle);
-        bypassToggleBtn.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
-            @Override
-            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-                AudioConstCompressor.bypass = isChecked;
-                //onEchoClick();
-            }
-        });
 
         final String thePackageName = getApplicationContext().getPackageName();
         final Button recToggleBtn = (Button) findViewById(R.id.recToggle);
@@ -226,7 +217,7 @@ public  class DialogAutoTuneLiveHelper extends AppCompatActivity implements Acti
 
                         });
 
-                        recToggleBtn.setBackground(ContextCompat.getDrawable(DialogAutoTuneLiveHelper.this, R.drawable.ic_recbtntry1));
+                        recToggleBtn.setBackground(ContextCompat.getDrawable(MainActivity.this, R.drawable.ic_recbtntry1));
                         System.out.println("oski onDestroy called");
                         LiveEffectEngine.setEffectOn(false);
                         isPlaying = false;
@@ -237,7 +228,7 @@ public  class DialogAutoTuneLiveHelper extends AppCompatActivity implements Acti
                         finish();
                     }
                 } else {
-                    Toast.makeText(DialogAutoTuneLiveHelper.this, "Push Play & setup effects first", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(MainActivity.this, "Push Play & setup effects first", Toast.LENGTH_SHORT).show();
                 }
 
             }
@@ -254,10 +245,10 @@ public  class DialogAutoTuneLiveHelper extends AppCompatActivity implements Acti
                     layoutReverb.setVisibility(View.GONE);
                     layoutEQ.setVisibility(View.GONE);
                     layoutAutotune.setVisibility(View.GONE);
-                    playToggleBtn.setBackground(ContextCompat.getDrawable(DialogAutoTuneLiveHelper.this, R.drawable.ic_pausebtntry1));
+                    playToggleBtn.setBackground(ContextCompat.getDrawable(MainActivity.this, R.drawable.ic_pausebtntry1));
 
                 } else {
-                    playToggleBtn.setBackground(ContextCompat.getDrawable(DialogAutoTuneLiveHelper.this, R.drawable.ic_playbtntry1));
+                    playToggleBtn.setBackground(ContextCompat.getDrawable(MainActivity.this, R.drawable.ic_playbtntry1));
                     layoutVolume.setVisibility(View.VISIBLE);
                 }
             }
@@ -309,11 +300,11 @@ public  class DialogAutoTuneLiveHelper extends AppCompatActivity implements Acti
         otherInstrumentToggleBtn.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-                AlertDialog.Builder builderSingle = new AlertDialog.Builder(DialogAutoTuneLiveHelper.this);
+                AlertDialog.Builder builderSingle = new AlertDialog.Builder(MainActivity.this);
                 builderSingle.setIcon(R.drawable.ic_instrumelogo_round);
                 builderSingle.setTitle("Choose an Instrument");
 
-                final ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(DialogAutoTuneLiveHelper.this, android.R.layout.select_dialog_singlechoice);
+                final ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(MainActivity.this, android.R.layout.select_dialog_singlechoice);
                 arrayAdapter.addAll(AudioConstants.instrumentList);
 
                 builderSingle.setNegativeButton("cancel", new DialogInterface.OnClickListener() {
@@ -342,7 +333,7 @@ public  class DialogAutoTuneLiveHelper extends AppCompatActivity implements Acti
         midiMoveBtn.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 if((AudioConstants.midiEditMode == 1) && AudioConstants.markedMidiNote < 0) {
-                    Toast.makeText(DialogAutoTuneLiveHelper.this,"Which one? Tap on a note first",Toast.LENGTH_LONG).show();
+                    Toast.makeText(MainActivity.this,"Which one? Tap on a note first",Toast.LENGTH_LONG).show();
                 }
                 else if(AudioConstants.midiEditMode == 1) {
                     AudioConstants.midiEditMode = 2;
@@ -361,7 +352,7 @@ public  class DialogAutoTuneLiveHelper extends AppCompatActivity implements Acti
         midiStretchBtn.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 if((AudioConstants.midiEditMode == 1) && AudioConstants.markedMidiNote < 0) {
-                    Toast.makeText(DialogAutoTuneLiveHelper.this,"Which one? Tap on a note first",Toast.LENGTH_LONG).show();
+                    Toast.makeText(MainActivity.this,"Which one? Tap on a note first",Toast.LENGTH_LONG).show();
                 }
                 else if(AudioConstants.midiEditMode == 1) {
                     AudioConstants.midiEditMode = 3;
@@ -405,7 +396,7 @@ public  class DialogAutoTuneLiveHelper extends AppCompatActivity implements Acti
                 if(AudioConstants.markedMidiNote >= 0){
                     LiveEffectEngine.deleteNoteAt(AudioConstants.markedMidiNote);
                 } else {
-                    Toast.makeText(DialogAutoTuneLiveHelper.this, "Which one? Tap on a note first", Toast.LENGTH_LONG).show();
+                    Toast.makeText(MainActivity.this, "Which one? Tap on a note first", Toast.LENGTH_LONG).show();
                 }
             }
         });
@@ -520,7 +511,7 @@ public  class DialogAutoTuneLiveHelper extends AppCompatActivity implements Acti
                         midiEditBtn.setVisibility(View.VISIBLE);
 
                         SharedPreferences appSharedPrefs = PreferenceManager
-                                .getDefaultSharedPreferences(DialogAutoTuneLiveHelper.this);
+                                .getDefaultSharedPreferences(MainActivity.this);
                         SharedPreferences.Editor prefsEditor = appSharedPrefs.edit();
                         Gson gson = new Gson();
                         String json = gson.toJson(AudioConstants.midiEvents);
@@ -552,7 +543,7 @@ public  class DialogAutoTuneLiveHelper extends AppCompatActivity implements Acti
 
                 showCommercial();
 
-                final Dialog dialog = new Dialog(DialogAutoTuneLiveHelper.this);
+                final Dialog dialog = new Dialog(MainActivity.this);
                 dialog.setContentView(R.layout.dialog_midi_export_options);
                 dialog.setTitle("ALERT!!");
                 // set values for custom dialog components - text, image and button
@@ -574,7 +565,7 @@ public  class DialogAutoTuneLiveHelper extends AppCompatActivity implements Acti
 
                 exportMp.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
                     public void onCompletion(MediaPlayer mp) {
-                        exportMidiPlayBtn.setBackground(ContextCompat.getDrawable(DialogAutoTuneLiveHelper.this, R.drawable.ic_playbtntry1));
+                        exportMidiPlayBtn.setBackground(ContextCompat.getDrawable(MainActivity.this, R.drawable.ic_playbtntry1));
                     }
                 });
 
@@ -591,9 +582,9 @@ public  class DialogAutoTuneLiveHelper extends AppCompatActivity implements Acti
                 okbtn.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        final int permission = ActivityCompat.checkSelfPermission(DialogAutoTuneLiveHelper.this, Manifest.permission.READ_EXTERNAL_STORAGE);
+                        final int permission = ActivityCompat.checkSelfPermission(MainActivity.this, Manifest.permission.READ_EXTERNAL_STORAGE);
 
-                        verifyStoragePermissions(DialogAutoTuneLiveHelper.this, REQUEST_EXTERNAL_STORAGE);
+                        verifyStoragePermissions(MainActivity.this, REQUEST_EXTERNAL_STORAGE);
 
                         System.out.println("going to import");
                         if (permission == PackageManager.PERMISSION_GRANTED) {
@@ -605,7 +596,7 @@ public  class DialogAutoTuneLiveHelper extends AppCompatActivity implements Acti
                             File output = exportMidiFile(fileNameStr);
 
 
-                            Uri uri = FileProvider.getUriForFile(DialogAutoTuneLiveHelper.this, BuildConfig.APPLICATION_ID, output);
+                            Uri uri = FileProvider.getUriForFile(MainActivity.this, BuildConfig.APPLICATION_ID, output);
                             grantUriPermission(getApplicationContext().getPackageName(), uri, Intent.FLAG_GRANT_READ_URI_PERMISSION);
 
                             Intent shareIntent = new Intent();
@@ -619,9 +610,9 @@ public  class DialogAutoTuneLiveHelper extends AppCompatActivity implements Acti
                             shareIntent.putExtra(Intent.EXTRA_STREAM, uri);
 
                             // validate that the device can open your File!
-                            PackageManager pm = DialogAutoTuneLiveHelper.this.getPackageManager();
+                            PackageManager pm = MainActivity.this.getPackageManager();
                             if (shareIntent.resolveActivity(pm) != null) {
-                                DialogAutoTuneLiveHelper.this.startActivity(shareIntent);
+                                MainActivity.this.startActivity(shareIntent);
                             }
 
                         }
@@ -633,19 +624,19 @@ public  class DialogAutoTuneLiveHelper extends AppCompatActivity implements Acti
                     @Override
                     public void onClick(View v) {
                         if (exportMp.isPlaying()) {
-                            exportMidiPlayBtn.setBackground(ContextCompat.getDrawable(DialogAutoTuneLiveHelper.this, R.drawable.ic_playbtntry1));
+                            exportMidiPlayBtn.setBackground(ContextCompat.getDrawable(MainActivity.this, R.drawable.ic_playbtntry1));
                             exportMp.pause();
                             exportMp.seekTo(0);
                             //exportMp.release();
                         } else {
-                            exportMidiPlayBtn.setBackground(ContextCompat.getDrawable(DialogAutoTuneLiveHelper.this, R.drawable.ic_pausebtntry1));
+                            exportMidiPlayBtn.setBackground(ContextCompat.getDrawable(MainActivity.this, R.drawable.ic_pausebtntry1));
                             exportMp.start();
                         }
                     }
                 });
             }
         });
-        verifyStoragePermissions(DialogAutoTuneLiveHelper.this, REQUEST_EXTERNAL_STORAGE);
+        verifyStoragePermissions(MainActivity.this, REQUEST_EXTERNAL_STORAGE);
 
         EditText midiInstrNrEdit = (EditText) findViewById(R.id.editMidiInstr);
         midiInstrNrEdit.addTextChangedListener(new TextWatcher() {
@@ -1194,7 +1185,7 @@ public  class DialogAutoTuneLiveHelper extends AppCompatActivity implements Acti
 
     ArrayList<Integer> TrueMan;
     public class Bigestnumber extends AsyncTask<String, String, String> {
-        ProgressDialog pdLoading = new ProgressDialog(DialogAutoTuneLiveHelper.this);
+        ProgressDialog pdLoading = new ProgressDialog(MainActivity.this);
 
         @Override
         protected String doInBackground(String... params) {
@@ -1256,7 +1247,7 @@ public  class DialogAutoTuneLiveHelper extends AppCompatActivity implements Acti
 
 
     public void showHeadphonesPopup() {
-        final AlertDialog.Builder adb = new AlertDialog.Builder(DialogAutoTuneLiveHelper.this);
+        final AlertDialog.Builder adb = new AlertDialog.Builder(MainActivity.this);
         LayoutInflater inflater = this.getLayoutInflater();
         View dialogView = inflater.inflate(R.layout.dialog_output_source, null);
         adb.setView(dialogView);
@@ -1265,7 +1256,7 @@ public  class DialogAutoTuneLiveHelper extends AppCompatActivity implements Acti
         setupPlaybackDeviceSpinner();
 
         adb.setTitle("Connect Headphones/Speaker");
-        adb.setIcon(ContextCompat.getDrawable(DialogAutoTuneLiveHelper.this, R.drawable.ic_input_cable));
+        adb.setIcon(ContextCompat.getDrawable(MainActivity.this, R.drawable.ic_input_cable));
         adb.setPositiveButton("OK", new DialogInterface.OnClickListener() {
             public void onClick(DialogInterface dialog, int which) {
                 onEchoClick();
@@ -1333,7 +1324,7 @@ public  class DialogAutoTuneLiveHelper extends AppCompatActivity implements Acti
         if (AudioConstants.midiEvents.length > 0) {
 
             SharedPreferences appSharedPrefs = PreferenceManager
-                    .getDefaultSharedPreferences(DialogAutoTuneLiveHelper.this);
+                    .getDefaultSharedPreferences(MainActivity.this);
             SharedPreferences.Editor prefsEditor = appSharedPrefs.edit();
             Gson gson = new Gson();
             String json = gson.toJson(AudioConstants.midiEvents);

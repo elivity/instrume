@@ -1,0 +1,7 @@
+C:/newproj/rr129-new/samples/instrume/.externalNativeBuild/cmake/debug/arm64-v8a/CMakeFiles/stkeffect.dir
+C:/newproj/rr129-new/samples/instrume/.externalNativeBuild/cmake/debug/arm64-v8a/CMakeFiles/autotuner.dir
+C:/newproj/rr129-new/samples/instrume/.externalNativeBuild/cmake/debug/arm64-v8a/CMakeFiles/edit_cache.dir
+C:/newproj/rr129-new/samples/instrume/.externalNativeBuild/cmake/debug/arm64-v8a/CMakeFiles/rebuild_cache.dir
+C:/newproj/rr129-new/samples/instrume/.externalNativeBuild/cmake/debug/arm64-v8a/oboe-bin/CMakeFiles/oboe.dir
+C:/newproj/rr129-new/samples/instrume/.externalNativeBuild/cmake/debug/arm64-v8a/oboe-bin/CMakeFiles/edit_cache.dir
+C:/newproj/rr129-new/samples/instrume/.externalNativeBuild/cmake/debug/arm64-v8a/oboe-bin/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,7 @@
+C:/newproj/rr129-new/samples/instrume/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/stkeffect.dir
+C:/newproj/rr129-new/samples/instrume/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/autotuner.dir
+C:/newproj/rr129-new/samples/instrume/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/edit_cache.dir
+C:/newproj/rr129-new/samples/instrume/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/rebuild_cache.dir
+C:/newproj/rr129-new/samples/instrume/.externalNativeBuild/cmake/release/x86_64/oboe-bin/CMakeFiles/oboe.dir
+C:/newproj/rr129-new/samples/instrume/.externalNativeBuild/cmake/release/x86_64/oboe-bin/CMakeFiles/edit_cache.dir
+C:/newproj/rr129-new/samples/instrume/.externalNativeBuild/cmake/release/x86_64/oboe-bin/CMakeFiles/rebuild_cache.dir

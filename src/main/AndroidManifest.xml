@@ -56,7 +56,7 @@
         <!--android:theme="@style/Theme.AppCompat.Dialog.MinWidth"-->
 
         <activity
-            android:name="com.oskiapps.instrume.DialogAutoTuneLiveHelper"
+            android:name="com.oskiapps.instrume.MainActivity"
             android:screenOrientation="landscape"
             android:configChanges="orientation|keyboardHidden"
             android:label="InstruMe">

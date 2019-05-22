@@ -1,0 +1,34 @@
+{
+  "buildFiles": [
+    "C:\\newproj\\rr129-new\\samples\\instrume\\src\\main\\CMakeLists.txt",
+    "C:\\newproj\\rr129-new\\CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "C:\\Users\\Oskar\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\newproj\\rr129-new\\samples\\instrume\\.externalNativeBuild\\cmake\\release\\armeabi-v7a --target clean"
+  ],
+  "libraries": {
+    "midi-Release-armeabi-v7a": {
+      "artifactName": "midi",
+      "abi": "armeabi-v7a",
+      "output": "C:\\newproj\\rr129-new\\samples\\instrume\\src\\main\\libs\\armeabi-v7a\\libmidi.so"
+    },
+    "autotuner-Release-armeabi-v7a": {
+      "artifactName": "autotuner",
+      "buildCommand": "C:\\Users\\Oskar\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\newproj\\rr129-new\\samples\\instrume\\.externalNativeBuild\\cmake\\release\\armeabi-v7a --target autotuner",
+      "abi": "armeabi-v7a",
+      "output": "C:\\newproj\\rr129-new\\samples\\instrume\\build\\intermediates\\cmake\\release\\obj\\armeabi-v7a\\libautotuner.so"
+    },
+    "oboe-Release-armeabi-v7a": {
+      "artifactName": "oboe",
+      "buildCommand": "C:\\Users\\Oskar\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\newproj\\rr129-new\\samples\\instrume\\.externalNativeBuild\\cmake\\release\\armeabi-v7a --target oboe",
+      "abi": "armeabi-v7a",
+      "output": "C:\\newproj\\rr129-new\\samples\\instrume\\.externalNativeBuild\\cmake\\release\\armeabi-v7a\\oboe-bin\\liboboe.a"
+    },
+    "stkeffect-Release-armeabi-v7a": {
+      "artifactName": "stkeffect",
+      "buildCommand": "C:\\Users\\Oskar\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\newproj\\rr129-new\\samples\\instrume\\.externalNativeBuild\\cmake\\release\\armeabi-v7a --target stkeffect",
+      "abi": "armeabi-v7a",
+      "output": "C:\\newproj\\rr129-new\\samples\\instrume\\build\\intermediates\\cmake\\release\\obj\\armeabi-v7a\\libstkeffect.so"
+    }
+  }
+}
