@@ -184,10 +184,10 @@ public  class MainActivity extends AppCompatActivity implements ActivityCompat.O
 
         // Sample AdMob app ID: ca-app-pub-3940256099942544~3347511713
         MobileAds.initialize(this,
-                "ca-app-pub-1180058241060000~1221060408");
+                AudioConstants.admobId);
 
         mInterstitialAd = new InterstitialAd(this);
-        mInterstitialAd.setAdUnitId("ca-app-pub-1180058241060000/1029488717");
+        mInterstitialAd.setAdUnitId(AudioConstants.admobAdId);
         mInterstitialAd.loadAd(new AdRequest.Builder().build());
 
 

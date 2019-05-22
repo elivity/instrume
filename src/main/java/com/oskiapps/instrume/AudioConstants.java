@@ -5,6 +5,9 @@ package com.oskiapps.instrume;
  */
 
 public  class AudioConstants {
+    public static String admobId = "";
+    public static String admobAdId = "";
+
     public static int recordedOffset = 0;
     public static int mPlayerPosition = 0;
 
