@@ -18,9 +18,67 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="69dc6bc1-fddc-44c1-8648-00127735178a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/oskiapps/instrume/AudioConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/oskiapps/instrume/AudioConstants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.externalNativeBuild/cmake/debug/arm64-v8a/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/.externalNativeBuild/cmake/debug/arm64-v8a/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.externalNativeBuild/cmake/debug/arm64-v8a/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/.externalNativeBuild/cmake/debug/arm64-v8a/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.externalNativeBuild/cmake/debug/arm64-v8a/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/.externalNativeBuild/cmake/debug/arm64-v8a/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.externalNativeBuild/cmake/debug/arm64-v8a/android_gradle_build.json" beforeDir="false" afterPath="$PROJECT_DIR$/.externalNativeBuild/cmake/debug/arm64-v8a/android_gradle_build.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.externalNativeBuild/cmake/debug/arm64-v8a/android_gradle_build_autotuner_arm64-v8a.stdout.txt" beforeDir="false" afterPath="$PROJECT_DIR$/.externalNativeBuild/cmake/debug/arm64-v8a/android_gradle_build_autotuner_arm64-v8a.stdout.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.externalNativeBuild/cmake/debug/arm64-v8a/android_gradle_generate_cmake_ninja_json_arm64-v8a.stdout.txt" beforeDir="false" afterPath="$PROJECT_DIR$/.externalNativeBuild/cmake/debug/arm64-v8a/android_gradle_generate_cmake_ninja_json_arm64-v8a.stdout.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.externalNativeBuild/cmake/debug/arm64-v8a/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/.externalNativeBuild/cmake/debug/arm64-v8a/build.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.externalNativeBuild/cmake/debug/arm64-v8a/cmake_build_output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/.externalNativeBuild/cmake/debug/arm64-v8a/cmake_build_output.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.externalNativeBuild/cmake/debug/armeabi-v7a/android_gradle_build.json" beforeDir="false" afterPath="$PROJECT_DIR$/.externalNativeBuild/cmake/debug/armeabi-v7a/android_gradle_build.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.externalNativeBuild/cmake/debug/armeabi-v7a/android_gradle_generate_cmake_ninja_json_armeabi-v7a.stdout.txt" beforeDir="false" afterPath="$PROJECT_DIR$/.externalNativeBuild/cmake/debug/armeabi-v7a/android_gradle_generate_cmake_ninja_json_armeabi-v7a.stdout.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.externalNativeBuild/cmake/debug/armeabi-v7a/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/.externalNativeBuild/cmake/debug/armeabi-v7a/build.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.externalNativeBuild/cmake/debug/armeabi-v7a/cmake_build_output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/.externalNativeBuild/cmake/debug/armeabi-v7a/cmake_build_output.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.externalNativeBuild/cmake/debug/x86/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/.externalNativeBuild/cmake/debug/x86/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.externalNativeBuild/cmake/debug/x86/android_gradle_build.json" beforeDir="false" afterPath="$PROJECT_DIR$/.externalNativeBuild/cmake/debug/x86/android_gradle_build.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.externalNativeBuild/cmake/debug/x86/android_gradle_generate_cmake_ninja_json_x86.stdout.txt" beforeDir="false" afterPath="$PROJECT_DIR$/.externalNativeBuild/cmake/debug/x86/android_gradle_generate_cmake_ninja_json_x86.stdout.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.externalNativeBuild/cmake/debug/x86/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/.externalNativeBuild/cmake/debug/x86/build.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.externalNativeBuild/cmake/debug/x86/cmake_build_output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/.externalNativeBuild/cmake/debug/x86/cmake_build_output.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.externalNativeBuild/cmake/debug/x86_64/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/.externalNativeBuild/cmake/debug/x86_64/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.externalNativeBuild/cmake/debug/x86_64/android_gradle_build.json" beforeDir="false" afterPath="$PROJECT_DIR$/.externalNativeBuild/cmake/debug/x86_64/android_gradle_build.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.externalNativeBuild/cmake/debug/x86_64/android_gradle_generate_cmake_ninja_json_x86_64.stdout.txt" beforeDir="false" afterPath="$PROJECT_DIR$/.externalNativeBuild/cmake/debug/x86_64/android_gradle_generate_cmake_ninja_json_x86_64.stdout.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.externalNativeBuild/cmake/debug/x86_64/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/.externalNativeBuild/cmake/debug/x86_64/build.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.externalNativeBuild/cmake/debug/x86_64/cmake_build_output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/.externalNativeBuild/cmake/debug/x86_64/cmake_build_output.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.externalNativeBuild/cmake/release/arm64-v8a/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/.externalNativeBuild/cmake/release/arm64-v8a/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.externalNativeBuild/cmake/release/arm64-v8a/android_gradle_build.json" beforeDir="false" afterPath="$PROJECT_DIR$/.externalNativeBuild/cmake/release/arm64-v8a/android_gradle_build.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.externalNativeBuild/cmake/release/arm64-v8a/android_gradle_generate_cmake_ninja_json_arm64-v8a.stdout.txt" beforeDir="false" afterPath="$PROJECT_DIR$/.externalNativeBuild/cmake/release/arm64-v8a/android_gradle_generate_cmake_ninja_json_arm64-v8a.stdout.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.externalNativeBuild/cmake/release/arm64-v8a/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/.externalNativeBuild/cmake/release/arm64-v8a/build.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.externalNativeBuild/cmake/release/arm64-v8a/cmake_build_output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/.externalNativeBuild/cmake/release/arm64-v8a/cmake_build_output.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.externalNativeBuild/cmake/release/armeabi-v7a/android_gradle_build.json" beforeDir="false" afterPath="$PROJECT_DIR$/.externalNativeBuild/cmake/release/armeabi-v7a/android_gradle_build.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.externalNativeBuild/cmake/release/armeabi-v7a/android_gradle_generate_cmake_ninja_json_armeabi-v7a.stdout.txt" beforeDir="false" afterPath="$PROJECT_DIR$/.externalNativeBuild/cmake/release/armeabi-v7a/android_gradle_generate_cmake_ninja_json_armeabi-v7a.stdout.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.externalNativeBuild/cmake/release/armeabi-v7a/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/.externalNativeBuild/cmake/release/armeabi-v7a/build.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.externalNativeBuild/cmake/release/armeabi-v7a/cmake_build_output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/.externalNativeBuild/cmake/release/armeabi-v7a/cmake_build_output.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.externalNativeBuild/cmake/release/x86/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/.externalNativeBuild/cmake/release/x86/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.externalNativeBuild/cmake/release/x86/android_gradle_build.json" beforeDir="false" afterPath="$PROJECT_DIR$/.externalNativeBuild/cmake/release/x86/android_gradle_build.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.externalNativeBuild/cmake/release/x86/android_gradle_generate_cmake_ninja_json_x86.stdout.txt" beforeDir="false" afterPath="$PROJECT_DIR$/.externalNativeBuild/cmake/release/x86/android_gradle_generate_cmake_ninja_json_x86.stdout.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.externalNativeBuild/cmake/release/x86/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/.externalNativeBuild/cmake/release/x86/build.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.externalNativeBuild/cmake/release/x86/cmake_build_output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/.externalNativeBuild/cmake/release/x86/cmake_build_output.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.externalNativeBuild/cmake/release/x86_64/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/.externalNativeBuild/cmake/release/x86_64/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.externalNativeBuild/cmake/release/x86_64/android_gradle_build.json" beforeDir="false" afterPath="$PROJECT_DIR$/.externalNativeBuild/cmake/release/x86_64/android_gradle_build.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.externalNativeBuild/cmake/release/x86_64/android_gradle_generate_cmake_ninja_json_x86_64.stdout.txt" beforeDir="false" afterPath="$PROJECT_DIR$/.externalNativeBuild/cmake/release/x86_64/android_gradle_generate_cmake_ninja_json_x86_64.stdout.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.externalNativeBuild/cmake/release/x86_64/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/.externalNativeBuild/cmake/release/x86_64/build.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.externalNativeBuild/cmake/release/x86_64/cmake_build_output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/.externalNativeBuild/cmake/release/x86_64/cmake_build_output.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle____local_aars___C__newproj_rr129_new_samples_app_libs_TarsosDSP_Android_latest_jar_unspecified_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle____local_aars___C__newproj_rr129_new_samples_app_libs_mp3plugin_jar_unspecified_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle____local_aars___C__newproj_rr129_new_samples_instrume_libs_TarsosDSP_Android_latest_jar_unspecified_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle____local_aars___C__newproj_rr129_new_samples_instrume_libs_mp3plugin_jar_unspecified_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_ads_consent_consent_library_1_0_7_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_ads_17_2_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_ads_base_17_2_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_ads_lite_17_2_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_gass_17_2_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_writingminds_FFmpegAndroid_0_3_2_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/instrume.iml" beforeDir="false" afterPath="$PROJECT_DIR$/instrume.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/cpp/ece420_main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/cpp/ece420_main.cpp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,25 +103,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/cpp/ece420_lib.cpp">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/cpp/ece420_lib.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/cpp/ece420_main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
-              <caret line="366" column="24" selection-start-line="366" selection-start-column="24" selection-end-line="366" selection-end-column="24" />
+            <state relative-caret-position="108">
+              <caret line="411" column="6" selection-start-line="411" selection-start-column="6" selection-end-line="411" selection-end-column="6" />
               <folding>
                 <element signature="e#172#188#0" expanded="true" />
                 <element signature="e#300#324#0" expanded="true" />
@@ -73,19 +117,43 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/cpp/eas.h">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1984">
-              <caret line="124" selection-start-line="124" selection-end-line="124" />
+            <state relative-caret-position="320">
+              <caret line="65" column="5" selection-start-line="65" selection-start-column="5" selection-end-line="65" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/oskiapps/instrume/AudioConstants.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../settings.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="262">
+              <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
+              <folding>
+                <element signature="e#0#618#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+              <folding>
+                <element signature="e#0#618#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/stkeffect/rawwaves/sine.c">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="112">
-              <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
@@ -93,69 +161,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/oskiapps/instrume/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="98" column="44" lean-forward="true" selection-start-line="98" selection-start-column="44" selection-end-line="98" selection-end-column="44" />
+            <state relative-caret-position="240">
+              <caret line="98" column="44" selection-start-line="98" selection-start-column="44" selection-end-line="98" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#7343#9215#0" expanded="true" />
-                <element signature="e#8149#8450#0" expanded="true" />
-                <element signature="e#8449#8450#0" expanded="true" />
-                <element signature="e#9214#9215#0" expanded="true" />
-                <element signature="e#9324#10211#0" expanded="true" />
-                <element signature="e#10210#10211#0" expanded="true" />
-                <element signature="e#10596#10856#0" expanded="true" />
-                <element signature="e#10855#10856#0" expanded="true" />
-                <element signature="e#10912#11253#0" expanded="true" />
-                <element signature="e#11252#11253#0" expanded="true" />
-                <element signature="e#11309#11651#0" expanded="true" />
-                <element signature="e#11650#11651#0" expanded="true" />
-                <element signature="e#11704#12047#0" expanded="true" />
-                <element signature="e#12046#12047#0" expanded="true" />
-                <element signature="e#12111#13520#0" expanded="true" />
-                <element signature="e#12589#12597#0" expanded="true" />
-                <element signature="e#12802#13030#0" expanded="true" />
-                <element signature="e#13029#13030#0" expanded="true" />
-                <element signature="e#13089#13455#0" expanded="true" />
-                <element signature="e#13454#13455#0" expanded="true" />
-                <element signature="e#13519#13520#0" expanded="true" />
-                <element signature="e#13677#14609#0" expanded="true" />
-                <element signature="e#14608#14609#0" expanded="true" />
-                <element signature="e#14654#15591#0" expanded="true" />
-                <element signature="e#15590#15591#0" expanded="true" />
-                <element signature="e#15685#16665#0" expanded="true" />
-                <element signature="e#16664#16665#0" expanded="true" />
-                <element signature="e#16768#17170#0" expanded="true" />
-                <element signature="e#17169#17170#0" expanded="true" />
-                <element signature="e#17299#17887#0" expanded="true" />
-                <element signature="e#17886#17887#0" expanded="true" />
-                <element signature="e#18007#18561#0" expanded="true" />
-                <element signature="e#18560#18561#0" expanded="true" />
-                <element signature="e#18729#19411#0" expanded="true" />
-                <element signature="e#19410#19411#0" expanded="true" />
-                <element signature="e#19454#21109#0" expanded="true" />
-                <element signature="e#21108#21109#0" expanded="true" />
-                <element signature="e#21248#22625#0" expanded="true" />
-                <element signature="e#22624#22625#0" expanded="true" />
-                <element signature="e#22695#22919#0" expanded="true" />
-                <element signature="e#22918#22919#0" expanded="true" />
-                <element signature="e#23035#27859#0" expanded="true" />
-                <element signature="e#24116#24401#0" expanded="true" />
-                <element signature="e#24400#24401#0" expanded="true" />
-                <element signature="e#24692#24882#0" expanded="true" />
-                <element signature="e#24881#24882#0" expanded="true" />
-                <element signature="e#24926#27035#0" expanded="true" />
-                <element signature="e#27034#27035#0" expanded="true" />
-                <element signature="e#27091#27833#0" expanded="true" />
-                <element signature="e#27832#27833#0" expanded="true" />
-                <element signature="e#27858#27859#0" expanded="true" />
-                <element signature="e#35940#35951#0" expanded="true" />
-                <element signature="e#43046#43047#0" expanded="true" />
-                <element signature="e#43086#43087#0" expanded="true" />
-                <element signature="e#51510#51707#0" expanded="true" />
-                <element signature="e#51706#51707#0" expanded="true" />
-                <element signature="e#51750#51908#0" expanded="true" />
-                <element signature="e#51907#51908#0" expanded="true" />
-                <element signature="e#53227#53268#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -164,7 +173,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/oskiapps/instrume/CanvasFragmentAutoTuneLive.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="700">
+            <state relative-caret-position="10352">
               <caret line="684" column="26" selection-start-line="684" selection-start-column="26" selection-end-line="684" selection-end-column="26" />
             </state>
           </provider>
@@ -173,7 +182,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/oskiapps/instrume/CanvasFragmentPreviewPlayer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="669">
+            <state relative-caret-position="11040">
               <caret line="724" column="12" selection-start-line="724" selection-start-column="12" selection-end-line="724" selection-end-column="12" />
             </state>
           </provider>
@@ -181,18 +190,18 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/AndroidManifest.xml">
-          <provider editor-type-id="android-manifest" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
+            <state relative-caret-position="448">
               <caret line="28" column="42" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
             </state>
           </provider>
+          <provider editor-type-id="android-manifest" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/res/values/strings.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
+            <state relative-caret-position="464">
               <caret line="29" selection-start-line="29" selection-end-line="30" />
             </state>
           </provider>
@@ -253,7 +262,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/res/layout/activity_test.xml" />
-        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/cpp/Util.h" />
         <option value="$PROJECT_DIR$/src/main/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/src/main/cpp/Util.cpp" />
@@ -262,7 +270,6 @@
         <option value="$PROJECT_DIR$/src/main/cpp/LiveEffectEngine.h" />
         <option value="$PROJECT_DIR$/src/main/cpp/jni_bridge.cpp" />
         <option value="$PROJECT_DIR$/src/main/cpp/LiveEffectEngine.cpp" />
-        <option value="$PROJECT_DIR$/../settings.gradle" />
         <option value="$PROJECT_DIR$/../app/src/main/cpp/LiveEffectEngine.h" />
         <option value="$PROJECT_DIR$/../app/src/main/cpp/ece420_main.h" />
         <option value="$PROJECT_DIR$/../app/src/main/cpp/MyNativeEffects.cpp" />
@@ -275,13 +282,16 @@
         <option value="$PROJECT_DIR$/src/main/java/com/oskiapps/instrume/DialogAutoTuneLiveHelper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/oskiapps/instrume/EffectAutoTuneOld.java" />
         <option value="$PROJECT_DIR$/src/main/cpp/ece420_lib.h" />
-        <option value="$PROJECT_DIR$/src/main/cpp/ece420_main.cpp" />
         <option value="$PROJECT_DIR$/src/main/java/com/oskiapps/instrume/CanvasFragmentPreviewPlayer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/oskiapps/instrume/CanvasFragmentAutoTuneLive.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/oskiapps/instrume/MainActivity.java" />
         <option value="$PROJECT_DIR$/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/oskiapps/instrume/AudioConstants.java" />
+        <option value="$PROJECT_DIR$/../settings.gradle" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/../build.gradle" />
+        <option value="$PROJECT_DIR$/src/main/cpp/ece420_main.cpp" />
       </list>
     </option>
   </component>
@@ -298,88 +308,23 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
+      <pane id="PackagesPane" />
+      <pane id="AndroidView">
         <subPane>
           <expand>
             <path>
-              <item name="samples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="instrume" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="app" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
             </path>
             <path>
-              <item name="samples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="instrume" type="47feb1d3:ProjectViewModuleNode" />
-              <item name="instrume" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="samples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="instrume" type="47feb1d3:ProjectViewModuleNode" />
-              <item name="instrume" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="samples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="instrume" type="47feb1d3:ProjectViewModuleNode" />
-              <item name="instrume" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="samples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="instrume" type="47feb1d3:ProjectViewModuleNode" />
-              <item name="instrume" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="cpp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="samples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="instrume" type="47feb1d3:ProjectViewModuleNode" />
-              <item name="instrume" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="samples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="instrume" type="47feb1d3:ProjectViewModuleNode" />
-              <item name="instrume" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="samples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="instrume" type="47feb1d3:ProjectViewModuleNode" />
-              <item name="instrume" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="instrume" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="samples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="instrume" type="47feb1d3:ProjectViewModuleNode" />
-              <item name="instrume" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="libs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="samples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="instrume" type="47feb1d3:ProjectViewModuleNode" />
-              <item name="instrume" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="libs" type="462c0819:PsiDirectoryNode" />
-              <item name="arm64-v8a" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="cpp" type="9a30073f:AndroidJniFolderNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope">
         <subPane subId="Scope 'Project Non-Source Files'; set:Project Non-Source Files; class com.jetbrains.cidr.lang.search.scopes.ProjectSourcesScopeProvider$NonSourceFilesScope">
           <expand>
@@ -545,124 +490,83 @@
           </expand>
           <select />
         </subPane>
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
-          <expand>
-            <path>
-              <item name="samples" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="C:\newproj\rr129-new" type="442cc68d:ScopeViewTreeModel$RootNode" />
-            </path>
-            <path>
-              <item name="samples" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="C:\newproj\rr129-new" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="samples" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="samples" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="C:\newproj\rr129-new" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="samples" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="instrume" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="samples" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="C:\newproj\rr129-new" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="samples" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="instrume" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="samples" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="C:\newproj\rr129-new" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="samples" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="instrume" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="samples" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="C:\newproj\rr129-new" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="samples" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="instrume" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="samples" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="C:\newproj\rr129-new" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="samples" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="instrume" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="samples" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="C:\newproj\rr129-new" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="samples" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="instrume" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="oskiapps" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="samples" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="C:\newproj\rr129-new" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="samples" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="instrume" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="oskiapps" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="instrume" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="samples" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="C:\newproj\rr129-new" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="samples" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="instrume" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="res" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="samples" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="C:\newproj\rr129-new" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="samples" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="instrume" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="res" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="raw" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="samples" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="C:\newproj\rr129-new" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="samples" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="instrume" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="res" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="values" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
       </pane>
-      <pane id="AndroidView">
+      <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="app" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="samples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="instrume" type="47feb1d3:ProjectViewModuleNode" />
             </path>
             <path>
-              <item name="app" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="cpp" type="9a30073f:AndroidJniFolderNode" />
+              <item name="samples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="instrume" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="instrume" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="samples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="instrume" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="instrume" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="samples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="instrume" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="instrume" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="samples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="instrume" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="instrume" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="cpp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="samples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="instrume" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="instrume" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="samples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="instrume" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="instrume" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="samples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="instrume" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="instrume" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="instrume" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="samples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="instrume" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="instrume" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="libs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="samples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="instrume" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="instrume" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="libs" type="462c0819:PsiDirectoryNode" />
+              <item name="arm64-v8a" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -679,8 +583,8 @@
     <property name="ExportApk.SignV2" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="device.picker.selection" value="HT79P1A01956" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../app" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -932,9 +836,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2912254" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.290469" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Captures" order="2" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="3" />
@@ -944,18 +847,18 @@
       <window_info id="Capture Tool" order="7" />
       <window_info id="Resources Explorer" order="8" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49900597" weight="0.12933333" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4977307" weight="0.53061223" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49900597" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Build" order="7" sideWeight="0.8359841" weight="0.27666667" />
-      <window_info anchor="bottom" id="Android Profiler" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.30484116" side_tool="true" visible="true" weight="0.40986395" />
+      <window_info anchor="bottom" id="Build" order="7" sideWeight="0.8320726" weight="0.2755102" />
+      <window_info anchor="bottom" id="Android Profiler" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.16792738" side_tool="true" weight="0.2755102" />
       <window_info anchor="bottom" id="Logcat" order="10" sideWeight="0.8638171" weight="0.29466668" />
       <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.69515884" visible="true" weight="0.40986395" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="12" sideWeight="0.6944024" visible="true" weight="0.40986395" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -1001,31 +904,6 @@
     </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#618#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../local.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../samples.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../settings.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-          <folding>
-            <element signature="e#0#618#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/cpp/ece420_main.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="398">
@@ -1113,11 +991,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/oskiapps/instrume/ara">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-30289" />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/oskiapps/instrume/ara" />
     <entry file="file://$PROJECT_DIR$/../app/src/main/java/com/raponmp3/raponmp3/CanvasFragmentAutoTuneLive.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
@@ -1125,35 +999,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/oskiapps/instrume/EffectReverbTryIIR.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="26" column="29" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/oskiapps/instrume/EffectReverbTryIIR.java" />
     <entry file="file://$PROJECT_DIR$/src/main/res/layout/activity_autotune_live_dialog.xml">
-      <provider selected="true" editor-type-id="android-designer2" />
       <provider editor-type-id="text-editor">
         <state relative-caret-position="16">
           <caret line="343" column="50" selection-start-line="343" selection-start-column="50" selection-end-line="343" selection-end-column="50" />
         </state>
       </provider>
+      <provider selected="true" editor-type-id="android-designer2" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/oskiapps/instrume/EffectCompressor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/oskiapps/instrume/EffectEQOld.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/oskiapps/instrume/EffectCompressor.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/oskiapps/instrume/EffectEQOld.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/oskiapps/instrume/EffectClass.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
@@ -1161,28 +1017,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/oskiapps/instrume/AudioConstEQ.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/oskiapps/instrume/CanvasFragmentEq.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="426">
-          <caret line="291" column="45" selection-start-line="291" selection-start-column="45" selection-end-line="291" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/res/layout/activity_eq_dialog.xml">
-      <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="53" column="22" selection-start-line="53" selection-start-column="22" selection-end-line="53" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/oskiapps/instrume/AudioConstEQ.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/oskiapps/instrume/CanvasFragmentEq.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/res/layout/activity_eq_dialog.xml" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/oskiapps/instrume/CanvasFragmentAutoTune.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="16">
@@ -1190,63 +1027,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/oskiapps/instrume/EffectInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/oskiapps/instrume/EffectAutoTuneOld.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="52" column="8" selection-start-line="52" selection-start-column="8" selection-end-line="52" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/oskiapps/instrume/EffectEQ.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/oskiapps/instrume/AudioConstCompressor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/oskiapps/instrume/DualPitchPeriodObj.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/oskiapps/instrume/EffectInterface.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/oskiapps/instrume/EffectAutoTuneOld.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/oskiapps/instrume/EffectEQ.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/oskiapps/instrume/AudioConstCompressor.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/oskiapps/instrume/DualPitchPeriodObj.java" />
     <entry file="file://$PROJECT_DIR$/src/main/res/layout/activity_autotune_dialog.xml">
-      <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="410">
           <caret line="53" column="22" selection-start-line="53" selection-start-column="22" selection-end-line="53" selection-end-column="22" />
         </state>
       </provider>
+      <provider editor-type-id="android-designer2" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/oskiapps/instrume/EffectAutoTune.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="29" column="87" selection-start-line="29" selection-start-column="87" selection-end-line="29" selection-end-column="87" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/oskiapps/instrume/jLayerHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/oskiapps/instrume/EffectAutoTune.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/oskiapps/instrume/jLayerHelper.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/oskiapps/instrume/AudioConstAutoTune.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
@@ -1277,21 +1072,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/cpp/Yin.c" />
+    <entry file="file://$PROJECT_DIR$/src/main/cpp/DrumRescue" />
     <entry file="file://$PROJECT_DIR$/src/main/cpp/ece420_lib.cpp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/cpp/ece420_lib.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
+        <state relative-caret-position="160">
           <caret line="10" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/cpp/Yin.c">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/cpp/DrumRescue">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/cpp/eas.h">
       <provider selected="true" editor-type-id="text-editor">
@@ -1300,119 +1091,94 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/cpp/ece420_main.cpp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/oskiapps/instrume/AudioConstants.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="366" column="24" selection-start-line="366" selection-start-column="24" selection-end-line="366" selection-end-column="24" />
-          <folding>
-            <element signature="e#172#188#0" expanded="true" />
-            <element signature="e#300#324#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/oskiapps/instrume/CanvasFragmentPreviewPlayer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="669">
-          <caret line="724" column="12" selection-start-line="724" selection-start-column="12" selection-end-line="724" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/oskiapps/instrume/CanvasFragmentAutoTuneLive.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="700">
-          <caret line="684" column="26" selection-start-line="684" selection-start-column="26" selection-end-line="684" selection-end-column="26" />
+        <state relative-caret-position="176">
+          <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/oskiapps/instrume/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="98" column="44" lean-forward="true" selection-start-line="98" selection-start-column="44" selection-end-line="98" selection-end-column="44" />
+        <state relative-caret-position="240">
+          <caret line="98" column="44" selection-start-line="98" selection-start-column="44" selection-end-line="98" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#7343#9215#0" expanded="true" />
-            <element signature="e#8149#8450#0" expanded="true" />
-            <element signature="e#8449#8450#0" expanded="true" />
-            <element signature="e#9214#9215#0" expanded="true" />
-            <element signature="e#9324#10211#0" expanded="true" />
-            <element signature="e#10210#10211#0" expanded="true" />
-            <element signature="e#10596#10856#0" expanded="true" />
-            <element signature="e#10855#10856#0" expanded="true" />
-            <element signature="e#10912#11253#0" expanded="true" />
-            <element signature="e#11252#11253#0" expanded="true" />
-            <element signature="e#11309#11651#0" expanded="true" />
-            <element signature="e#11650#11651#0" expanded="true" />
-            <element signature="e#11704#12047#0" expanded="true" />
-            <element signature="e#12046#12047#0" expanded="true" />
-            <element signature="e#12111#13520#0" expanded="true" />
-            <element signature="e#12589#12597#0" expanded="true" />
-            <element signature="e#12802#13030#0" expanded="true" />
-            <element signature="e#13029#13030#0" expanded="true" />
-            <element signature="e#13089#13455#0" expanded="true" />
-            <element signature="e#13454#13455#0" expanded="true" />
-            <element signature="e#13519#13520#0" expanded="true" />
-            <element signature="e#13677#14609#0" expanded="true" />
-            <element signature="e#14608#14609#0" expanded="true" />
-            <element signature="e#14654#15591#0" expanded="true" />
-            <element signature="e#15590#15591#0" expanded="true" />
-            <element signature="e#15685#16665#0" expanded="true" />
-            <element signature="e#16664#16665#0" expanded="true" />
-            <element signature="e#16768#17170#0" expanded="true" />
-            <element signature="e#17169#17170#0" expanded="true" />
-            <element signature="e#17299#17887#0" expanded="true" />
-            <element signature="e#17886#17887#0" expanded="true" />
-            <element signature="e#18007#18561#0" expanded="true" />
-            <element signature="e#18560#18561#0" expanded="true" />
-            <element signature="e#18729#19411#0" expanded="true" />
-            <element signature="e#19410#19411#0" expanded="true" />
-            <element signature="e#19454#21109#0" expanded="true" />
-            <element signature="e#21108#21109#0" expanded="true" />
-            <element signature="e#21248#22625#0" expanded="true" />
-            <element signature="e#22624#22625#0" expanded="true" />
-            <element signature="e#22695#22919#0" expanded="true" />
-            <element signature="e#22918#22919#0" expanded="true" />
-            <element signature="e#23035#27859#0" expanded="true" />
-            <element signature="e#24116#24401#0" expanded="true" />
-            <element signature="e#24400#24401#0" expanded="true" />
-            <element signature="e#24692#24882#0" expanded="true" />
-            <element signature="e#24881#24882#0" expanded="true" />
-            <element signature="e#24926#27035#0" expanded="true" />
-            <element signature="e#27034#27035#0" expanded="true" />
-            <element signature="e#27091#27833#0" expanded="true" />
-            <element signature="e#27832#27833#0" expanded="true" />
-            <element signature="e#27858#27859#0" expanded="true" />
-            <element signature="e#35940#35951#0" expanded="true" />
-            <element signature="e#43046#43047#0" expanded="true" />
-            <element signature="e#43086#43087#0" expanded="true" />
-            <element signature="e#51510#51707#0" expanded="true" />
-            <element signature="e#51706#51707#0" expanded="true" />
-            <element signature="e#51750#51908#0" expanded="true" />
-            <element signature="e#51907#51908#0" expanded="true" />
-            <element signature="e#53227#53268#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/AndroidManifest.xml">
-      <provider editor-type-id="android-manifest" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/oskiapps/instrume/CanvasFragmentAutoTuneLive.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="28" column="42" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
+        <state relative-caret-position="10352">
+          <caret line="684" column="26" selection-start-line="684" selection-start-column="26" selection-end-line="684" selection-end-column="26" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/oskiapps/instrume/CanvasFragmentPreviewPlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11040">
+          <caret line="724" column="12" selection-start-line="724" selection-start-column="12" selection-end-line="724" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="28" column="42" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-manifest" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
+        <state relative-caret-position="464">
           <caret line="29" selection-start-line="29" selection-end-line="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/oskiapps/instrume/AudioConstants.java">
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="65" column="5" selection-start-line="65" selection-start-column="5" selection-end-line="65" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../settings.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#618#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#618#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/stkeffect/rawwaves/sine.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
-          <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/cpp/ece420_main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="411" column="6" selection-start-line="411" selection-start-column="6" selection-end-line="411" selection-end-column="6" />
+          <folding>
+            <element signature="e#172#188#0" expanded="true" />
+            <element signature="e#300#324#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

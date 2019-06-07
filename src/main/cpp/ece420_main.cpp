@@ -239,7 +239,7 @@ float ece420_main::midiToFreq(int midiNote) {
 
     LOGV("oskipassed %i %i %i %i",BESTBUFF,bufferMulti,BUFFER_SIZE, F_S);
 
-    newEpochIdx = FRAME_SIZE;
+    //newEpochIdx = FRAME_SIZE;
 
  }
 
@@ -409,6 +409,6 @@ std::vector<float> ece420_main::getSpectrum(std::vector<int16_t> gotBuffer) {
 
 JNIEXPORT void JNICALL
 Java_com_oskiapps_instrume_DialogAutoTuneLiveHelper_writeNewFreq(JNIEnv *env, jclass, jint newFreq) {
-    FREQ_NEW_ANDROID = (int) newFreq;
+    //FREQ_NEW_ANDROID = (int) newFreq;
     return;
 }
