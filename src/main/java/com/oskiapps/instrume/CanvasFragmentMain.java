@@ -29,14 +29,12 @@ import java.util.HashMap;
 import androidx.core.view.ViewCompat;
 import androidx.fragment.app.Fragment;
 
-import org.billthefarmer.mididriver.MidiDriver;
-
 
 /**
  * Created by Oskar on 31.03.2018.
  */
 
-public class CanvasFragmentAutoTuneLive extends Fragment {
+public class CanvasFragmentMain extends Fragment {
 
     public DrawClass drawClass;
     @Override
@@ -52,17 +50,17 @@ public class CanvasFragmentAutoTuneLive extends Fragment {
     }
 
     public static interface OnCompleteListener {
-        public abstract void onComplete(CanvasFragmentAutoTuneLive gotCanv);
+        public abstract void onComplete(CanvasFragmentMain gotCanv);
     }
 
-    //private CanvasFragmentAutoTuneLive.OnCompleteListener mListener;
+    //private CanvasFragmentMain.OnCompleteListener mListener;
 
     /*public Context upperContext;
     public void onAttach(Context context) {
         super.onAttach(context);
         try {
             upperContext = context;
-            this.mListener = (CanvasFragmentAutoTuneLive.OnCompleteListener)context;
+            this.mListener = (CanvasFragmentMain.OnCompleteListener)context;
         }
         catch (final ClassCastException e) {
             throw new ClassCastException(context.toString() + " must implement OnCompleteListener");
@@ -138,7 +136,7 @@ public class CanvasFragmentAutoTuneLive extends Fragment {
             AXIS_Y_MAX = drCanvas.getHeight();*/
 
             initializeKeyboard(drCanvas);
-            //mListener.onComplete(CanvasFragmentAutoTuneLive.this);
+            //mListener.onComplete(CanvasFragmentMain.this);
 
         }
 

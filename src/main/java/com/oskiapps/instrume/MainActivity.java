@@ -157,7 +157,7 @@ public  class MainActivity extends AppCompatActivity implements ActivityCompat.O
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_voiceboard_main);
 
-        canvFragAuto = (CanvasFragmentAutoTuneLive) getSupportFragmentManager().findFragmentById(R.id.canvasFragmentAutoTuneLive);
+        canvFragAuto = (CanvasFragmentMain) getSupportFragmentManager().findFragmentById(R.id.canvasFragmentAutoTuneLive);
         canvFragPrev = (CanvasFragmentPreviewPlayer) getSupportFragmentManager().findFragmentById(R.id.canvasFragmentPreviewPlayer);
 
         linearFxBox = findViewById(R.id.linearLayoutFxBox);
@@ -1031,7 +1031,7 @@ public  class MainActivity extends AppCompatActivity implements ActivityCompat.O
         LiveEffectEngine.setEffectOn(true);
     }
 
-    CanvasFragmentAutoTuneLive canvFragAuto;
+    CanvasFragmentMain canvFragAuto;
     CanvasFragmentPreviewPlayer canvFragPrev;
 
     private boolean isRecordPermissionGranted() {

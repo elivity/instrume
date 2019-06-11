@@ -648,7 +648,7 @@
 
     <fragment
         android:id="@+id/canvasFragmentAutoTuneLive"
-        android:name="com.oskiapps.instrume.CanvasFragmentAutoTuneLive"
+        android:name="com.oskiapps.instrume.CanvasFragmentMain"
         android:layout_width="0dp"
         android:layout_height="150dp"
         app:layout_constraintBottom_toBottomOf="parent"
