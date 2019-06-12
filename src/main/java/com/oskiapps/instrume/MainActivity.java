@@ -52,8 +52,9 @@ import java.lang.reflect.Type;
 import java.util.ArrayList;
 import java.util.Collections;
 
-import com.google.android.gms.ads.AdListener;
-import com.google.android.gms.ads.MobileAds;
+//uncomment when ads are needed
+//import com.google.android.gms.ads.AdListener;
+//import com.google.android.gms.ads.MobileAds;
 import com.google.gson.Gson;
 import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
@@ -81,8 +82,8 @@ import static android.content.Intent.FLAG_GRANT_READ_URI_PERMISSION;
 import static android.os.Environment.getExternalStorageDirectory;
 
 //import com.google.android.gms.ads.*;
-import com.google.android.gms.ads.AdRequest;
-import com.google.android.gms.ads.InterstitialAd;
+//import com.google.android.gms.ads.AdRequest;
+//import com.google.android.gms.ads.InterstitialAd;
 
 /**
  * Created by Oskar on 20.09.2018.
@@ -156,7 +157,7 @@ public  class MainActivity extends AppCompatActivity implements ActivityCompat.O
     boolean preMidiRecActiveClicked = false;
     boolean prePlayMidiClicked = false;
     ToggleButton[] toggleBtnArray = new ToggleButton[4];
-    private InterstitialAd mInterstitialAd;
+    //private InterstitialAd mInterstitialAd;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -205,26 +206,26 @@ public  class MainActivity extends AppCompatActivity implements ActivityCompat.O
         toggleBtnArray[2] = otherInstrumentToggleBtn;
 
 
-        // Sample AdMob app ID: ca-app-pub-3940256099942544~3347511713
-        MobileAds.initialize(this,
-                AudioConstants.admobId);
-
-        mInterstitialAd = new InterstitialAd(this);
-        mInterstitialAd.setAdUnitId(AudioConstants.admobAdId);
-        mInterstitialAd.loadAd(new AdRequest.Builder().build());
 
         initButtonBehaviors();
         verifyStoragePermissions(MainActivity.this, REQUEST_EXTERNAL_STORAGE);
 
         //reload commercial
-        mInterstitialAd.setAdListener(new AdListener() {
+        // Sample AdMob app ID: ca-app-pub-3940256099942544~3347511713
+        //MobileAds.initialize(this,
+        //        AudioConstants.admobId);
+
+        //mInterstitialAd = new InterstitialAd(this);
+        //mInterstitialAd.setAdUnitId(AudioConstants.admobAdId);
+        //mInterstitialAd.loadAd(new AdRequest.Builder().build());
+        /*mInterstitialAd.setAdListener(new AdListener() {
             @Override
             public void onAdClosed() {
                 // Load the next interstitial.
                 mInterstitialAd.loadAd(new AdRequest.Builder().build());
             }
 
-        });
+        });*/
     }
 
     private void initButtonBehaviors() {
@@ -1002,7 +1003,7 @@ public  class MainActivity extends AppCompatActivity implements ActivityCompat.O
     }
 
     public void showCommercial() {
-        if (mInterstitialAd.isLoaded()) {
+        /*if (mInterstitialAd.isLoaded()) {
             if(AudioConstants.skipCommercialCnt > 3) {
                 mInterstitialAd.show();
                 AudioConstants.skipCommercialCnt = 0;
@@ -1011,7 +1012,7 @@ public  class MainActivity extends AppCompatActivity implements ActivityCompat.O
             }
         } else {
             Log.d("TAG", "The interstitial wasn't loaded yet.");
-        }
+        }*/
     }
 
 

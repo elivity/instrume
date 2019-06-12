@@ -452,7 +452,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 build oboe-bin/CMakeFiles/oboe.dir/src/aaudio/AAudioLoader.cpp.o: CXX_COMPILER__oboe C$:/newproj/rr129-new/src/aaudio/AAudioLoader.cpp
   DEFINES = -DOBOE_ENABLE_LOGGING=1
   DEP_FILE = oboe-bin\CMakeFiles\oboe.dir\src\aaudio\AAudioLoader.cpp.o.d
-  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -O0 -fno-limit-debug-info  -fPIC   -std=c++11 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast -Werror
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -O0 -fno-limit-debug-info  -fPIC   -std=c++14 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast -Werror
   INCLUDES = -I../../../../../../src -I../../../../../../include
   IN_ABS = C:\newproj\rr129-new\src\aaudio\AAudioLoader.cpp
   OBJECT_DIR = oboe-bin\CMakeFiles\oboe.dir
@@ -460,7 +460,7 @@ build oboe-bin/CMakeFiles/oboe.dir/src/aaudio/AAudioLoader.cpp.o: CXX_COMPILER__
 build oboe-bin/CMakeFiles/oboe.dir/src/aaudio/AudioStreamAAudio.cpp.o: CXX_COMPILER__oboe C$:/newproj/rr129-new/src/aaudio/AudioStreamAAudio.cpp
   DEFINES = -DOBOE_ENABLE_LOGGING=1
   DEP_FILE = oboe-bin\CMakeFiles\oboe.dir\src\aaudio\AudioStreamAAudio.cpp.o.d
-  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -O0 -fno-limit-debug-info  -fPIC   -std=c++11 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast -Werror
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -O0 -fno-limit-debug-info  -fPIC   -std=c++14 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast -Werror
   INCLUDES = -I../../../../../../src -I../../../../../../include
   IN_ABS = C:\newproj\rr129-new\src\aaudio\AudioStreamAAudio.cpp
   OBJECT_DIR = oboe-bin\CMakeFiles\oboe.dir
@@ -468,7 +468,7 @@ build oboe-bin/CMakeFiles/oboe.dir/src/aaudio/AudioStreamAAudio.cpp.o: CXX_COMPI
 build oboe-bin/CMakeFiles/oboe.dir/src/common/LatencyTuner.cpp.o: CXX_COMPILER__oboe C$:/newproj/rr129-new/src/common/LatencyTuner.cpp
   DEFINES = -DOBOE_ENABLE_LOGGING=1
   DEP_FILE = oboe-bin\CMakeFiles\oboe.dir\src\common\LatencyTuner.cpp.o.d
-  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -O0 -fno-limit-debug-info  -fPIC   -std=c++11 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast -Werror
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -O0 -fno-limit-debug-info  -fPIC   -std=c++14 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast -Werror
   INCLUDES = -I../../../../../../src -I../../../../../../include
   IN_ABS = C:\newproj\rr129-new\src\common\LatencyTuner.cpp
   OBJECT_DIR = oboe-bin\CMakeFiles\oboe.dir
@@ -476,7 +476,7 @@ build oboe-bin/CMakeFiles/oboe.dir/src/common/LatencyTuner.cpp.o: CXX_COMPILER__
 build oboe-bin/CMakeFiles/oboe.dir/src/common/AudioStream.cpp.o: CXX_COMPILER__oboe C$:/newproj/rr129-new/src/common/AudioStream.cpp
   DEFINES = -DOBOE_ENABLE_LOGGING=1
   DEP_FILE = oboe-bin\CMakeFiles\oboe.dir\src\common\AudioStream.cpp.o.d
-  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -O0 -fno-limit-debug-info  -fPIC   -std=c++11 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast -Werror
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -O0 -fno-limit-debug-info  -fPIC   -std=c++14 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast -Werror
   INCLUDES = -I../../../../../../src -I../../../../../../include
   IN_ABS = C:\newproj\rr129-new\src\common\AudioStream.cpp
   OBJECT_DIR = oboe-bin\CMakeFiles\oboe.dir
@@ -484,7 +484,7 @@ build oboe-bin/CMakeFiles/oboe.dir/src/common/AudioStream.cpp.o: CXX_COMPILER__o
 build oboe-bin/CMakeFiles/oboe.dir/src/common/AudioStreamBuilder.cpp.o: CXX_COMPILER__oboe C$:/newproj/rr129-new/src/common/AudioStreamBuilder.cpp
   DEFINES = -DOBOE_ENABLE_LOGGING=1
   DEP_FILE = oboe-bin\CMakeFiles\oboe.dir\src\common\AudioStreamBuilder.cpp.o.d
-  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -O0 -fno-limit-debug-info  -fPIC   -std=c++11 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast -Werror
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -O0 -fno-limit-debug-info  -fPIC   -std=c++14 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast -Werror
   INCLUDES = -I../../../../../../src -I../../../../../../include
   IN_ABS = C:\newproj\rr129-new\src\common\AudioStreamBuilder.cpp
   OBJECT_DIR = oboe-bin\CMakeFiles\oboe.dir
@@ -492,7 +492,7 @@ build oboe-bin/CMakeFiles/oboe.dir/src/common/AudioStreamBuilder.cpp.o: CXX_COMP
 build oboe-bin/CMakeFiles/oboe.dir/src/common/Utilities.cpp.o: CXX_COMPILER__oboe C$:/newproj/rr129-new/src/common/Utilities.cpp
   DEFINES = -DOBOE_ENABLE_LOGGING=1
   DEP_FILE = oboe-bin\CMakeFiles\oboe.dir\src\common\Utilities.cpp.o.d
-  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -O0 -fno-limit-debug-info  -fPIC   -std=c++11 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast -Werror
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -O0 -fno-limit-debug-info  -fPIC   -std=c++14 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast -Werror
   INCLUDES = -I../../../../../../src -I../../../../../../include
   IN_ABS = C:\newproj\rr129-new\src\common\Utilities.cpp
   OBJECT_DIR = oboe-bin\CMakeFiles\oboe.dir
@@ -500,7 +500,7 @@ build oboe-bin/CMakeFiles/oboe.dir/src/common/Utilities.cpp.o: CXX_COMPILER__obo
 build oboe-bin/CMakeFiles/oboe.dir/src/fifo/FifoBuffer.cpp.o: CXX_COMPILER__oboe C$:/newproj/rr129-new/src/fifo/FifoBuffer.cpp
   DEFINES = -DOBOE_ENABLE_LOGGING=1
   DEP_FILE = oboe-bin\CMakeFiles\oboe.dir\src\fifo\FifoBuffer.cpp.o.d
-  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -O0 -fno-limit-debug-info  -fPIC   -std=c++11 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast -Werror
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -O0 -fno-limit-debug-info  -fPIC   -std=c++14 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast -Werror
   INCLUDES = -I../../../../../../src -I../../../../../../include
   IN_ABS = C:\newproj\rr129-new\src\fifo\FifoBuffer.cpp
   OBJECT_DIR = oboe-bin\CMakeFiles\oboe.dir
@@ -508,7 +508,7 @@ build oboe-bin/CMakeFiles/oboe.dir/src/fifo/FifoBuffer.cpp.o: CXX_COMPILER__oboe
 build oboe-bin/CMakeFiles/oboe.dir/src/fifo/FifoController.cpp.o: CXX_COMPILER__oboe C$:/newproj/rr129-new/src/fifo/FifoController.cpp
   DEFINES = -DOBOE_ENABLE_LOGGING=1
   DEP_FILE = oboe-bin\CMakeFiles\oboe.dir\src\fifo\FifoController.cpp.o.d
-  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -O0 -fno-limit-debug-info  -fPIC   -std=c++11 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast -Werror
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -O0 -fno-limit-debug-info  -fPIC   -std=c++14 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast -Werror
   INCLUDES = -I../../../../../../src -I../../../../../../include
   IN_ABS = C:\newproj\rr129-new\src\fifo\FifoController.cpp
   OBJECT_DIR = oboe-bin\CMakeFiles\oboe.dir
@@ -516,7 +516,7 @@ build oboe-bin/CMakeFiles/oboe.dir/src/fifo/FifoController.cpp.o: CXX_COMPILER__
 build oboe-bin/CMakeFiles/oboe.dir/src/fifo/FifoControllerBase.cpp.o: CXX_COMPILER__oboe C$:/newproj/rr129-new/src/fifo/FifoControllerBase.cpp
   DEFINES = -DOBOE_ENABLE_LOGGING=1
   DEP_FILE = oboe-bin\CMakeFiles\oboe.dir\src\fifo\FifoControllerBase.cpp.o.d
-  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -O0 -fno-limit-debug-info  -fPIC   -std=c++11 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast -Werror
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -O0 -fno-limit-debug-info  -fPIC   -std=c++14 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast -Werror
   INCLUDES = -I../../../../../../src -I../../../../../../include
   IN_ABS = C:\newproj\rr129-new\src\fifo\FifoControllerBase.cpp
   OBJECT_DIR = oboe-bin\CMakeFiles\oboe.dir
@@ -524,15 +524,103 @@ build oboe-bin/CMakeFiles/oboe.dir/src/fifo/FifoControllerBase.cpp.o: CXX_COMPIL
 build oboe-bin/CMakeFiles/oboe.dir/src/fifo/FifoControllerIndirect.cpp.o: CXX_COMPILER__oboe C$:/newproj/rr129-new/src/fifo/FifoControllerIndirect.cpp
   DEFINES = -DOBOE_ENABLE_LOGGING=1
   DEP_FILE = oboe-bin\CMakeFiles\oboe.dir\src\fifo\FifoControllerIndirect.cpp.o.d
-  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -O0 -fno-limit-debug-info  -fPIC   -std=c++11 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast -Werror
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -O0 -fno-limit-debug-info  -fPIC   -std=c++14 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast -Werror
   INCLUDES = -I../../../../../../src -I../../../../../../include
   IN_ABS = C:\newproj\rr129-new\src\fifo\FifoControllerIndirect.cpp
   OBJECT_DIR = oboe-bin\CMakeFiles\oboe.dir
   OBJECT_FILE_DIR = oboe-bin\CMakeFiles\oboe.dir\src\fifo
+build oboe-bin/CMakeFiles/oboe.dir/src/flowgraph/AudioProcessorBase.cpp.o: CXX_COMPILER__oboe C$:/newproj/rr129-new/src/flowgraph/AudioProcessorBase.cpp
+  DEFINES = -DOBOE_ENABLE_LOGGING=1
+  DEP_FILE = oboe-bin\CMakeFiles\oboe.dir\src\flowgraph\AudioProcessorBase.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -O0 -fno-limit-debug-info  -fPIC   -std=c++14 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast -Werror
+  INCLUDES = -I../../../../../../src -I../../../../../../include
+  IN_ABS = C:\newproj\rr129-new\src\flowgraph\AudioProcessorBase.cpp
+  OBJECT_DIR = oboe-bin\CMakeFiles\oboe.dir
+  OBJECT_FILE_DIR = oboe-bin\CMakeFiles\oboe.dir\src\flowgraph
+build oboe-bin/CMakeFiles/oboe.dir/src/flowgraph/ClipToRange.cpp.o: CXX_COMPILER__oboe C$:/newproj/rr129-new/src/flowgraph/ClipToRange.cpp
+  DEFINES = -DOBOE_ENABLE_LOGGING=1
+  DEP_FILE = oboe-bin\CMakeFiles\oboe.dir\src\flowgraph\ClipToRange.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -O0 -fno-limit-debug-info  -fPIC   -std=c++14 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast -Werror
+  INCLUDES = -I../../../../../../src -I../../../../../../include
+  IN_ABS = C:\newproj\rr129-new\src\flowgraph\ClipToRange.cpp
+  OBJECT_DIR = oboe-bin\CMakeFiles\oboe.dir
+  OBJECT_FILE_DIR = oboe-bin\CMakeFiles\oboe.dir\src\flowgraph
+build oboe-bin/CMakeFiles/oboe.dir/src/flowgraph/ManyToMultiConverter.cpp.o: CXX_COMPILER__oboe C$:/newproj/rr129-new/src/flowgraph/ManyToMultiConverter.cpp
+  DEFINES = -DOBOE_ENABLE_LOGGING=1
+  DEP_FILE = oboe-bin\CMakeFiles\oboe.dir\src\flowgraph\ManyToMultiConverter.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -O0 -fno-limit-debug-info  -fPIC   -std=c++14 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast -Werror
+  INCLUDES = -I../../../../../../src -I../../../../../../include
+  IN_ABS = C:\newproj\rr129-new\src\flowgraph\ManyToMultiConverter.cpp
+  OBJECT_DIR = oboe-bin\CMakeFiles\oboe.dir
+  OBJECT_FILE_DIR = oboe-bin\CMakeFiles\oboe.dir\src\flowgraph
+build oboe-bin/CMakeFiles/oboe.dir/src/flowgraph/MonoToMultiConverter.cpp.o: CXX_COMPILER__oboe C$:/newproj/rr129-new/src/flowgraph/MonoToMultiConverter.cpp
+  DEFINES = -DOBOE_ENABLE_LOGGING=1
+  DEP_FILE = oboe-bin\CMakeFiles\oboe.dir\src\flowgraph\MonoToMultiConverter.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -O0 -fno-limit-debug-info  -fPIC   -std=c++14 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast -Werror
+  INCLUDES = -I../../../../../../src -I../../../../../../include
+  IN_ABS = C:\newproj\rr129-new\src\flowgraph\MonoToMultiConverter.cpp
+  OBJECT_DIR = oboe-bin\CMakeFiles\oboe.dir
+  OBJECT_FILE_DIR = oboe-bin\CMakeFiles\oboe.dir\src\flowgraph
+build oboe-bin/CMakeFiles/oboe.dir/src/flowgraph/RampLinear.cpp.o: CXX_COMPILER__oboe C$:/newproj/rr129-new/src/flowgraph/RampLinear.cpp
+  DEFINES = -DOBOE_ENABLE_LOGGING=1
+  DEP_FILE = oboe-bin\CMakeFiles\oboe.dir\src\flowgraph\RampLinear.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -O0 -fno-limit-debug-info  -fPIC   -std=c++14 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast -Werror
+  INCLUDES = -I../../../../../../src -I../../../../../../include
+  IN_ABS = C:\newproj\rr129-new\src\flowgraph\RampLinear.cpp
+  OBJECT_DIR = oboe-bin\CMakeFiles\oboe.dir
+  OBJECT_FILE_DIR = oboe-bin\CMakeFiles\oboe.dir\src\flowgraph
+build oboe-bin/CMakeFiles/oboe.dir/src/flowgraph/SinkFloat.cpp.o: CXX_COMPILER__oboe C$:/newproj/rr129-new/src/flowgraph/SinkFloat.cpp
+  DEFINES = -DOBOE_ENABLE_LOGGING=1
+  DEP_FILE = oboe-bin\CMakeFiles\oboe.dir\src\flowgraph\SinkFloat.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -O0 -fno-limit-debug-info  -fPIC   -std=c++14 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast -Werror
+  INCLUDES = -I../../../../../../src -I../../../../../../include
+  IN_ABS = C:\newproj\rr129-new\src\flowgraph\SinkFloat.cpp
+  OBJECT_DIR = oboe-bin\CMakeFiles\oboe.dir
+  OBJECT_FILE_DIR = oboe-bin\CMakeFiles\oboe.dir\src\flowgraph
+build oboe-bin/CMakeFiles/oboe.dir/src/flowgraph/SinkI16.cpp.o: CXX_COMPILER__oboe C$:/newproj/rr129-new/src/flowgraph/SinkI16.cpp
+  DEFINES = -DOBOE_ENABLE_LOGGING=1
+  DEP_FILE = oboe-bin\CMakeFiles\oboe.dir\src\flowgraph\SinkI16.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -O0 -fno-limit-debug-info  -fPIC   -std=c++14 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast -Werror
+  INCLUDES = -I../../../../../../src -I../../../../../../include
+  IN_ABS = C:\newproj\rr129-new\src\flowgraph\SinkI16.cpp
+  OBJECT_DIR = oboe-bin\CMakeFiles\oboe.dir
+  OBJECT_FILE_DIR = oboe-bin\CMakeFiles\oboe.dir\src\flowgraph
+build oboe-bin/CMakeFiles/oboe.dir/src/flowgraph/SinkI24.cpp.o: CXX_COMPILER__oboe C$:/newproj/rr129-new/src/flowgraph/SinkI24.cpp
+  DEFINES = -DOBOE_ENABLE_LOGGING=1
+  DEP_FILE = oboe-bin\CMakeFiles\oboe.dir\src\flowgraph\SinkI24.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -O0 -fno-limit-debug-info  -fPIC   -std=c++14 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast -Werror
+  INCLUDES = -I../../../../../../src -I../../../../../../include
+  IN_ABS = C:\newproj\rr129-new\src\flowgraph\SinkI24.cpp
+  OBJECT_DIR = oboe-bin\CMakeFiles\oboe.dir
+  OBJECT_FILE_DIR = oboe-bin\CMakeFiles\oboe.dir\src\flowgraph
+build oboe-bin/CMakeFiles/oboe.dir/src/flowgraph/SourceFloat.cpp.o: CXX_COMPILER__oboe C$:/newproj/rr129-new/src/flowgraph/SourceFloat.cpp
+  DEFINES = -DOBOE_ENABLE_LOGGING=1
+  DEP_FILE = oboe-bin\CMakeFiles\oboe.dir\src\flowgraph\SourceFloat.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -O0 -fno-limit-debug-info  -fPIC   -std=c++14 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast -Werror
+  INCLUDES = -I../../../../../../src -I../../../../../../include
+  IN_ABS = C:\newproj\rr129-new\src\flowgraph\SourceFloat.cpp
+  OBJECT_DIR = oboe-bin\CMakeFiles\oboe.dir
+  OBJECT_FILE_DIR = oboe-bin\CMakeFiles\oboe.dir\src\flowgraph
+build oboe-bin/CMakeFiles/oboe.dir/src/flowgraph/SourceI16.cpp.o: CXX_COMPILER__oboe C$:/newproj/rr129-new/src/flowgraph/SourceI16.cpp
+  DEFINES = -DOBOE_ENABLE_LOGGING=1
+  DEP_FILE = oboe-bin\CMakeFiles\oboe.dir\src\flowgraph\SourceI16.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -O0 -fno-limit-debug-info  -fPIC   -std=c++14 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast -Werror
+  INCLUDES = -I../../../../../../src -I../../../../../../include
+  IN_ABS = C:\newproj\rr129-new\src\flowgraph\SourceI16.cpp
+  OBJECT_DIR = oboe-bin\CMakeFiles\oboe.dir
+  OBJECT_FILE_DIR = oboe-bin\CMakeFiles\oboe.dir\src\flowgraph
+build oboe-bin/CMakeFiles/oboe.dir/src/flowgraph/SourceI24.cpp.o: CXX_COMPILER__oboe C$:/newproj/rr129-new/src/flowgraph/SourceI24.cpp
+  DEFINES = -DOBOE_ENABLE_LOGGING=1
+  DEP_FILE = oboe-bin\CMakeFiles\oboe.dir\src\flowgraph\SourceI24.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -O0 -fno-limit-debug-info  -fPIC   -std=c++14 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast -Werror
+  INCLUDES = -I../../../../../../src -I../../../../../../include
+  IN_ABS = C:\newproj\rr129-new\src\flowgraph\SourceI24.cpp
+  OBJECT_DIR = oboe-bin\CMakeFiles\oboe.dir
+  OBJECT_FILE_DIR = oboe-bin\CMakeFiles\oboe.dir\src\flowgraph
 build oboe-bin/CMakeFiles/oboe.dir/src/opensles/AudioInputStreamOpenSLES.cpp.o: CXX_COMPILER__oboe C$:/newproj/rr129-new/src/opensles/AudioInputStreamOpenSLES.cpp
   DEFINES = -DOBOE_ENABLE_LOGGING=1
   DEP_FILE = oboe-bin\CMakeFiles\oboe.dir\src\opensles\AudioInputStreamOpenSLES.cpp.o.d
-  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -O0 -fno-limit-debug-info  -fPIC   -std=c++11 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast -Werror
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -O0 -fno-limit-debug-info  -fPIC   -std=c++14 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast -Werror
   INCLUDES = -I../../../../../../src -I../../../../../../include
   IN_ABS = C:\newproj\rr129-new\src\opensles\AudioInputStreamOpenSLES.cpp
   OBJECT_DIR = oboe-bin\CMakeFiles\oboe.dir
@@ -540,7 +628,7 @@ build oboe-bin/CMakeFiles/oboe.dir/src/opensles/AudioInputStreamOpenSLES.cpp.o: 
 build oboe-bin/CMakeFiles/oboe.dir/src/opensles/AudioOutputStreamOpenSLES.cpp.o: CXX_COMPILER__oboe C$:/newproj/rr129-new/src/opensles/AudioOutputStreamOpenSLES.cpp
   DEFINES = -DOBOE_ENABLE_LOGGING=1
   DEP_FILE = oboe-bin\CMakeFiles\oboe.dir\src\opensles\AudioOutputStreamOpenSLES.cpp.o.d
-  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -O0 -fno-limit-debug-info  -fPIC   -std=c++11 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast -Werror
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -O0 -fno-limit-debug-info  -fPIC   -std=c++14 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast -Werror
   INCLUDES = -I../../../../../../src -I../../../../../../include
   IN_ABS = C:\newproj\rr129-new\src\opensles\AudioOutputStreamOpenSLES.cpp
   OBJECT_DIR = oboe-bin\CMakeFiles\oboe.dir
@@ -548,7 +636,7 @@ build oboe-bin/CMakeFiles/oboe.dir/src/opensles/AudioOutputStreamOpenSLES.cpp.o:
 build oboe-bin/CMakeFiles/oboe.dir/src/opensles/AudioStreamBuffered.cpp.o: CXX_COMPILER__oboe C$:/newproj/rr129-new/src/opensles/AudioStreamBuffered.cpp
   DEFINES = -DOBOE_ENABLE_LOGGING=1
   DEP_FILE = oboe-bin\CMakeFiles\oboe.dir\src\opensles\AudioStreamBuffered.cpp.o.d
-  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -O0 -fno-limit-debug-info  -fPIC   -std=c++11 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast -Werror
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -O0 -fno-limit-debug-info  -fPIC   -std=c++14 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast -Werror
   INCLUDES = -I../../../../../../src -I../../../../../../include
   IN_ABS = C:\newproj\rr129-new\src\opensles\AudioStreamBuffered.cpp
   OBJECT_DIR = oboe-bin\CMakeFiles\oboe.dir
@@ -556,7 +644,7 @@ build oboe-bin/CMakeFiles/oboe.dir/src/opensles/AudioStreamBuffered.cpp.o: CXX_C
 build oboe-bin/CMakeFiles/oboe.dir/src/opensles/AudioStreamOpenSLES.cpp.o: CXX_COMPILER__oboe C$:/newproj/rr129-new/src/opensles/AudioStreamOpenSLES.cpp
   DEFINES = -DOBOE_ENABLE_LOGGING=1
   DEP_FILE = oboe-bin\CMakeFiles\oboe.dir\src\opensles\AudioStreamOpenSLES.cpp.o.d
-  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -O0 -fno-limit-debug-info  -fPIC   -std=c++11 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast -Werror
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -O0 -fno-limit-debug-info  -fPIC   -std=c++14 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast -Werror
   INCLUDES = -I../../../../../../src -I../../../../../../include
   IN_ABS = C:\newproj\rr129-new\src\opensles\AudioStreamOpenSLES.cpp
   OBJECT_DIR = oboe-bin\CMakeFiles\oboe.dir
@@ -564,7 +652,7 @@ build oboe-bin/CMakeFiles/oboe.dir/src/opensles/AudioStreamOpenSLES.cpp.o: CXX_C
 build oboe-bin/CMakeFiles/oboe.dir/src/opensles/EngineOpenSLES.cpp.o: CXX_COMPILER__oboe C$:/newproj/rr129-new/src/opensles/EngineOpenSLES.cpp
   DEFINES = -DOBOE_ENABLE_LOGGING=1
   DEP_FILE = oboe-bin\CMakeFiles\oboe.dir\src\opensles\EngineOpenSLES.cpp.o.d
-  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -O0 -fno-limit-debug-info  -fPIC   -std=c++11 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast -Werror
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -O0 -fno-limit-debug-info  -fPIC   -std=c++14 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast -Werror
   INCLUDES = -I../../../../../../src -I../../../../../../include
   IN_ABS = C:\newproj\rr129-new\src\opensles\EngineOpenSLES.cpp
   OBJECT_DIR = oboe-bin\CMakeFiles\oboe.dir
@@ -572,7 +660,7 @@ build oboe-bin/CMakeFiles/oboe.dir/src/opensles/EngineOpenSLES.cpp.o: CXX_COMPIL
 build oboe-bin/CMakeFiles/oboe.dir/src/opensles/OpenSLESUtilities.cpp.o: CXX_COMPILER__oboe C$:/newproj/rr129-new/src/opensles/OpenSLESUtilities.cpp
   DEFINES = -DOBOE_ENABLE_LOGGING=1
   DEP_FILE = oboe-bin\CMakeFiles\oboe.dir\src\opensles\OpenSLESUtilities.cpp.o.d
-  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -O0 -fno-limit-debug-info  -fPIC   -std=c++11 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast -Werror
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -O0 -fno-limit-debug-info  -fPIC   -std=c++14 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast -Werror
   INCLUDES = -I../../../../../../src -I../../../../../../include
   IN_ABS = C:\newproj\rr129-new\src\opensles\OpenSLESUtilities.cpp
   OBJECT_DIR = oboe-bin\CMakeFiles\oboe.dir
@@ -580,7 +668,7 @@ build oboe-bin/CMakeFiles/oboe.dir/src/opensles/OpenSLESUtilities.cpp.o: CXX_COM
 build oboe-bin/CMakeFiles/oboe.dir/src/opensles/OutputMixerOpenSLES.cpp.o: CXX_COMPILER__oboe C$:/newproj/rr129-new/src/opensles/OutputMixerOpenSLES.cpp
   DEFINES = -DOBOE_ENABLE_LOGGING=1
   DEP_FILE = oboe-bin\CMakeFiles\oboe.dir\src\opensles\OutputMixerOpenSLES.cpp.o.d
-  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -O0 -fno-limit-debug-info  -fPIC   -std=c++11 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast -Werror
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -O0 -fno-limit-debug-info  -fPIC   -std=c++14 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast -Werror
   INCLUDES = -I../../../../../../src -I../../../../../../include
   IN_ABS = C:\newproj\rr129-new\src\opensles\OutputMixerOpenSLES.cpp
   OBJECT_DIR = oboe-bin\CMakeFiles\oboe.dir
@@ -588,7 +676,7 @@ build oboe-bin/CMakeFiles/oboe.dir/src/opensles/OutputMixerOpenSLES.cpp.o: CXX_C
 build oboe-bin/CMakeFiles/oboe.dir/src/common/StabilizedCallback.cpp.o: CXX_COMPILER__oboe C$:/newproj/rr129-new/src/common/StabilizedCallback.cpp
   DEFINES = -DOBOE_ENABLE_LOGGING=1
   DEP_FILE = oboe-bin\CMakeFiles\oboe.dir\src\common\StabilizedCallback.cpp.o.d
-  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -O0 -fno-limit-debug-info  -fPIC   -std=c++11 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast -Werror
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -O0 -fno-limit-debug-info  -fPIC   -std=c++14 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast -Werror
   INCLUDES = -I../../../../../../src -I../../../../../../include
   IN_ABS = C:\newproj\rr129-new\src\common\StabilizedCallback.cpp
   OBJECT_DIR = oboe-bin\CMakeFiles\oboe.dir
@@ -596,9 +684,17 @@ build oboe-bin/CMakeFiles/oboe.dir/src/common/StabilizedCallback.cpp.o: CXX_COMP
 build oboe-bin/CMakeFiles/oboe.dir/src/common/Trace.cpp.o: CXX_COMPILER__oboe C$:/newproj/rr129-new/src/common/Trace.cpp
   DEFINES = -DOBOE_ENABLE_LOGGING=1
   DEP_FILE = oboe-bin\CMakeFiles\oboe.dir\src\common\Trace.cpp.o.d
-  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -O0 -fno-limit-debug-info  -fPIC   -std=c++11 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast -Werror
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -O0 -fno-limit-debug-info  -fPIC   -std=c++14 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast -Werror
   INCLUDES = -I../../../../../../src -I../../../../../../include
   IN_ABS = C:\newproj\rr129-new\src\common\Trace.cpp
+  OBJECT_DIR = oboe-bin\CMakeFiles\oboe.dir
+  OBJECT_FILE_DIR = oboe-bin\CMakeFiles\oboe.dir\src\common
+build oboe-bin/CMakeFiles/oboe.dir/src/common/Version.cpp.o: CXX_COMPILER__oboe C$:/newproj/rr129-new/src/common/Version.cpp
+  DEFINES = -DOBOE_ENABLE_LOGGING=1
+  DEP_FILE = oboe-bin\CMakeFiles\oboe.dir\src\common\Version.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -O0 -fno-limit-debug-info  -fPIC   -std=c++14 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast -Werror
+  INCLUDES = -I../../../../../../src -I../../../../../../include
+  IN_ABS = C:\newproj\rr129-new\src\common\Version.cpp
   OBJECT_DIR = oboe-bin\CMakeFiles\oboe.dir
   OBJECT_FILE_DIR = oboe-bin\CMakeFiles\oboe.dir\src\common
 
@@ -609,7 +705,7 @@ build oboe-bin/CMakeFiles/oboe.dir/src/common/Trace.cpp.o: CXX_COMPILER__oboe C$
 #############################################
 # Link the static library oboe-bin\liboboe.a
 
-build oboe-bin/liboboe.a: CXX_STATIC_LIBRARY_LINKER__oboe oboe-bin/CMakeFiles/oboe.dir/src/aaudio/AAudioLoader.cpp.o oboe-bin/CMakeFiles/oboe.dir/src/aaudio/AudioStreamAAudio.cpp.o oboe-bin/CMakeFiles/oboe.dir/src/common/LatencyTuner.cpp.o oboe-bin/CMakeFiles/oboe.dir/src/common/AudioStream.cpp.o oboe-bin/CMakeFiles/oboe.dir/src/common/AudioStreamBuilder.cpp.o oboe-bin/CMakeFiles/oboe.dir/src/common/Utilities.cpp.o oboe-bin/CMakeFiles/oboe.dir/src/fifo/FifoBuffer.cpp.o oboe-bin/CMakeFiles/oboe.dir/src/fifo/FifoController.cpp.o oboe-bin/CMakeFiles/oboe.dir/src/fifo/FifoControllerBase.cpp.o oboe-bin/CMakeFiles/oboe.dir/src/fifo/FifoControllerIndirect.cpp.o oboe-bin/CMakeFiles/oboe.dir/src/opensles/AudioInputStreamOpenSLES.cpp.o oboe-bin/CMakeFiles/oboe.dir/src/opensles/AudioOutputStreamOpenSLES.cpp.o oboe-bin/CMakeFiles/oboe.dir/src/opensles/AudioStreamBuffered.cpp.o oboe-bin/CMakeFiles/oboe.dir/src/opensles/AudioStreamOpenSLES.cpp.o oboe-bin/CMakeFiles/oboe.dir/src/opensles/EngineOpenSLES.cpp.o oboe-bin/CMakeFiles/oboe.dir/src/opensles/OpenSLESUtilities.cpp.o oboe-bin/CMakeFiles/oboe.dir/src/opensles/OutputMixerOpenSLES.cpp.o oboe-bin/CMakeFiles/oboe.dir/src/common/StabilizedCallback.cpp.o oboe-bin/CMakeFiles/oboe.dir/src/common/Trace.cpp.o
+build oboe-bin/liboboe.a: CXX_STATIC_LIBRARY_LINKER__oboe oboe-bin/CMakeFiles/oboe.dir/src/aaudio/AAudioLoader.cpp.o oboe-bin/CMakeFiles/oboe.dir/src/aaudio/AudioStreamAAudio.cpp.o oboe-bin/CMakeFiles/oboe.dir/src/common/LatencyTuner.cpp.o oboe-bin/CMakeFiles/oboe.dir/src/common/AudioStream.cpp.o oboe-bin/CMakeFiles/oboe.dir/src/common/AudioStreamBuilder.cpp.o oboe-bin/CMakeFiles/oboe.dir/src/common/Utilities.cpp.o oboe-bin/CMakeFiles/oboe.dir/src/fifo/FifoBuffer.cpp.o oboe-bin/CMakeFiles/oboe.dir/src/fifo/FifoController.cpp.o oboe-bin/CMakeFiles/oboe.dir/src/fifo/FifoControllerBase.cpp.o oboe-bin/CMakeFiles/oboe.dir/src/fifo/FifoControllerIndirect.cpp.o oboe-bin/CMakeFiles/oboe.dir/src/flowgraph/AudioProcessorBase.cpp.o oboe-bin/CMakeFiles/oboe.dir/src/flowgraph/ClipToRange.cpp.o oboe-bin/CMakeFiles/oboe.dir/src/flowgraph/ManyToMultiConverter.cpp.o oboe-bin/CMakeFiles/oboe.dir/src/flowgraph/MonoToMultiConverter.cpp.o oboe-bin/CMakeFiles/oboe.dir/src/flowgraph/RampLinear.cpp.o oboe-bin/CMakeFiles/oboe.dir/src/flowgraph/SinkFloat.cpp.o oboe-bin/CMakeFiles/oboe.dir/src/flowgraph/SinkI16.cpp.o oboe-bin/CMakeFiles/oboe.dir/src/flowgraph/SinkI24.cpp.o oboe-bin/CMakeFiles/oboe.dir/src/flowgraph/SourceFloat.cpp.o oboe-bin/CMakeFiles/oboe.dir/src/flowgraph/SourceI16.cpp.o oboe-bin/CMakeFiles/oboe.dir/src/flowgraph/SourceI24.cpp.o oboe-bin/CMakeFiles/oboe.dir/src/opensles/AudioInputStreamOpenSLES.cpp.o oboe-bin/CMakeFiles/oboe.dir/src/opensles/AudioOutputStreamOpenSLES.cpp.o oboe-bin/CMakeFiles/oboe.dir/src/opensles/AudioStreamBuffered.cpp.o oboe-bin/CMakeFiles/oboe.dir/src/opensles/AudioStreamOpenSLES.cpp.o oboe-bin/CMakeFiles/oboe.dir/src/opensles/EngineOpenSLES.cpp.o oboe-bin/CMakeFiles/oboe.dir/src/opensles/OpenSLESUtilities.cpp.o oboe-bin/CMakeFiles/oboe.dir/src/opensles/OutputMixerOpenSLES.cpp.o oboe-bin/CMakeFiles/oboe.dir/src/common/StabilizedCallback.cpp.o oboe-bin/CMakeFiles/oboe.dir/src/common/Trace.cpp.o oboe-bin/CMakeFiles/oboe.dir/src/common/Version.cpp.o
   LANGUAGE_COMPILE_FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -O0 -fno-limit-debug-info
   OBJECT_DIR = oboe-bin\CMakeFiles\oboe.dir
   POST_BUILD = cd .

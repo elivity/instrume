@@ -1,1 +1,49 @@
-ninja: no work to do.
+[1/34] Building CXX object CMakeFiles/stkeffect.dir/stkeffect/src/FreeVerb.cpp.o
+[2/34] Building CXX object CMakeFiles/stkeffect.dir/stkeffect/src/Stk.cpp.o
+[3/34] Building CXX object CMakeFiles/stkeffect.dir/stkeffect/src/Delay.cpp.o
+[4/34] Building CXX object CMakeFiles/stkeffect.dir/stkeffect/src/OnePole.cpp.o
+[5/34] Building CXX object CMakeFiles/stkeffect.dir/stkeffect/src/DelayL.cpp.o
+[6/34] Building CXX object CMakeFiles/stkeffect.dir/stkeffect/src/NRev.cpp.o
+[7/34] Building CXX object CMakeFiles/stkeffect.dir/stkeffect/src/Saxofony.cpp.o
+[8/34] Building CXX object CMakeFiles/stkeffect.dir/stkeffect/src/OneZero.cpp.o
+[9/34] Building CXX object CMakeFiles/stkeffect.dir/stkeffect/src/BiQuad.cpp.o
+[10/34] Building CXX object CMakeFiles/stkeffect.dir/stkeffect/src/LentPitShift.cpp.o
+[11/34] Building CXX object CMakeFiles/stkeffect.dir/stkeffect/src/PitShift.cpp.o
+C:\newproj\rr129-new\samples\instrume\src\main\stkeffect\src\Stk.cpp:59:9: warning: 'RAWWAVE_PATH' macro redefined [-Wmacro-redefined]
+#define RAWWAVE_PATH std::string()
+        ^
+C:/newproj/rr129-new/samples/instrume/src/main/stkeffect/include\Stk.h:570:11: note: previous definition is here
+  #define RAWWAVE_PATH "/storage/emulated/0/RapOnMp3/rawwaves/"
+          ^
+1 warning generated.
+[12/34] Building CXX object CMakeFiles/stkeffect.dir/stkeffect/src/Envelope.cpp.o
+[13/34] Building CXX object CMakeFiles/stkeffect.dir/stkeffect/src/SineWave.cpp.o
+[14/34] Building CXX object CMakeFiles/stkeffect.dir/stkeffect/src/Noise.cpp.o
+[15/34] Building CXX object CMakeFiles/stkeffect.dir/stkeffect/src/BlowHole.cpp.o
+[16/34] Building CXX object CMakeFiles/stkeffect.dir/stkeffect/src/FM.cpp.o
+[17/34] Building CXX object CMakeFiles/stkeffect.dir/stkeffect/src/Wurley.cpp.o
+[18/34] Building CXX object CMakeFiles/stkeffect.dir/stkeffect/src/Rhodey.cpp.o
+[19/34] Building CXX object CMakeFiles/stkeffect.dir/stkeffect/src/TwoZero.cpp.o
+[20/34] Building C object CMakeFiles/stkeffect.dir/stkeffect/rawwaves/sine.c.o
+C:\newproj\rr129-new\samples\instrume\src\main\stkeffect\rawwaves\sine.c:10:1: warning: return type of 'main' is not 'int' [-Wmain-return-type]
+void main()
+^
+C:\newproj\rr129-new\samples\instrume\src\main\stkeffect\rawwaves\sine.c:10:1: note: change return type to 'int'
+void main()
+^~~~
+int
+1 warning generated.
+[21/34] Building CXX object CMakeFiles/stkeffect.dir/stkeffect/src/FileRead.cpp.o
+[22/34] Building CXX object CMakeFiles/stkeffect.dir/stkeffect/src/Guitar.cpp.o
+[23/34] Building CXX object CMakeFiles/stkeffect.dir/stkeffect/src/FileLoop.cpp.o
+[24/34] Building CXX object CMakeFiles/stkeffect.dir/stkeffect/src/ADSR.cpp.o
+[25/34] Building CXX object CMakeFiles/stkeffect.dir/stkeffect/src/FileWvIn.cpp.o
+[26/34] Building CXX object CMakeFiles/stkeffect.dir/stkeffect/src/Fir.cpp.o
+[27/34] Building CXX object CMakeFiles/stkeffect.dir/stkeffect/src/Phonemes.cpp.o
+[28/34] Building CXX object CMakeFiles/stkeffect.dir/stkeffect/src/Twang.cpp.o
+[29/34] Building CXX object CMakeFiles/stkeffect.dir/stkeffect/src/DelayA.cpp.o
+[30/34] Building CXX object CMakeFiles/stkeffect.dir/stkeffect/src/Brass.cpp.o
+[31/34] Building CXX object CMakeFiles/stkeffect.dir/stkeffect/src/Drummer.cpp.o
+[32/34] Building CXX object CMakeFiles/stkeffect.dir/stkeffect/src/PoleZero.cpp.o
+[33/34] Building CXX object CMakeFiles/stkeffect.dir/stkeffect/src/RtMidi.cpp.o
+[34/34] Linking CXX shared library C:\newproj\rr129-new\samples\instrume\build\intermediates\cmake\debug\obj\armeabi-v7a\libstkeffect.so

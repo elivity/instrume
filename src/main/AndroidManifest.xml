@@ -24,9 +24,10 @@
         android:theme="@style/Theme.AppCompat.NoActionBar">
 
         <!-- Sample AdMob App ID: ca-app-pub-3940256099942544~3347511713 -->
+        <!-- uncomment when ads are needed
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="@string/admobid"/>
+            android:value="@string/admobid"/>-->
 
         <provider
             android:name="androidx.core.content.FileProvider"
