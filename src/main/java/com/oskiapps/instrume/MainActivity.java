@@ -40,7 +40,6 @@ import android.widget.CompoundButton;
 import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.SeekBar;
-import android.widget.Spinner;
 import android.widget.Toast;
 import android.widget.ToggleButton;
 
@@ -52,7 +51,6 @@ import java.io.OutputStream;
 import java.lang.reflect.Type;
 import java.util.ArrayList;
 import java.util.Collections;
-import java.util.Comparator;
 
 import com.google.android.gms.ads.AdListener;
 import com.google.android.gms.ads.MobileAds;
@@ -106,7 +104,7 @@ public  class MainActivity extends AppCompatActivity implements ActivityCompat.O
 
     ToggleButton midiRecActiveToggle;
 
-    ToggleButton fenderToggleBtn;
+    ToggleButton pianoToggleBtn;
     ToggleButton otherInstrumentToggleBtn;
     ToggleButton guitarToggleBtn;
     ToggleButton saxoToggleBtn;
@@ -117,7 +115,15 @@ public  class MainActivity extends AppCompatActivity implements ActivityCompat.O
     Button midiStretchBtn;
     Button midiEditBtn;
     Button playToggleBtn;
+    Button recToggleBtn;
     ToggleButton playMidiToggleBtn;
+    EditText midiInstrNrEdit;
+    SeekBar midiThreshSB;
+    SeekBar tuneLineSpinner;
+    Button midiExportBtn;
+    ToggleButton midiRecToggleBtn;
+    Button midiClearBtn;
+    Button backBtn;
 
     private String nativeSampleRate;
     private String nativeSampleBufSize;
@@ -144,7 +150,7 @@ public  class MainActivity extends AppCompatActivity implements ActivityCompat.O
     private IntentFilter intentFilter = new IntentFilter(AudioManager.ACTION_AUDIO_BECOMING_NOISY);
     private BecomingNoisyReceiver myNoisyAudioStreamReceiver = new BecomingNoisyReceiver();
 
-    ArrayList<EffectClass> preAddEffects;
+
     MainHelper.ToggleClickStates toggleClickStatesObj;
     boolean preMidiRecClicked = false;
     boolean preMidiRecActiveClicked = false;
@@ -169,18 +175,35 @@ public  class MainActivity extends AppCompatActivity implements ActivityCompat.O
 
         guitarToggleBtn = findViewById(R.id.guitarToggle);
         saxoToggleBtn = findViewById(R.id.saxoToggle);
-        fenderToggleBtn = findViewById(R.id.fenderToggle);
+        pianoToggleBtn = findViewById(R.id.fenderToggle);
         otherInstrumentToggleBtn = findViewById(R.id.otherInstrumentToggle);
+
+        recToggleBtn = (Button) findViewById(R.id.recToggle);
+        playToggleBtn = (Button) findViewById(R.id.playToggle);
+        backBtn = (Button) findViewById(R.id.backBtn);
+        midiStretchBtn = findViewById(R.id.midiStretchBtn);
+        midiMoveBtn = findViewById(R.id.midiMoveBtn);
+        midiAddBtn = findViewById(R.id.midiAddBtn);
+        midiDeleteBtn = findViewById(R.id.midiDeleteBtn);
+        midiRecActiveToggle = findViewById(R.id.midiRecActiveToggle);
+        playMidiToggleBtn = findViewById(R.id.playMidiToggle);
+        midiEditBtn = findViewById(R.id.midiEditBtn);
+        midiClearBtn = findViewById(R.id.midiClearBtn);
+        midiRecToggleBtn = findViewById(R.id.midiRecordToggle);
+        midiExportBtn = findViewById(R.id.midiExportBtn);
+        midiInstrNrEdit = (EditText) findViewById(R.id.editMidiInstr);
+        musicVolumeSB = findViewById(R.id.musicvolumeSB);
+        vocalVolumeSB = findViewById(R.id.vocalvolumeSB);
+        midiThreshSB = findViewById(R.id.midiThreshSB);
+
 
         toggleClickStatesObj = new MainHelper.ToggleClickStates();
 
-        toggleBtnArray[0] = fenderToggleBtn;
+        toggleBtnArray[0] = pianoToggleBtn;
         toggleBtnArray[1] = guitarToggleBtn;
         toggleBtnArray[3] = saxoToggleBtn;
         toggleBtnArray[2] = otherInstrumentToggleBtn;
 
-
-        preAddEffects = new ArrayList<>();
 
         // Sample AdMob app ID: ca-app-pub-3940256099942544~3347511713
         MobileAds.initialize(this,
@@ -190,9 +213,21 @@ public  class MainActivity extends AppCompatActivity implements ActivityCompat.O
         mInterstitialAd.setAdUnitId(AudioConstants.admobAdId);
         mInterstitialAd.loadAd(new AdRequest.Builder().build());
 
+        initButtonBehaviors();
+        verifyStoragePermissions(MainActivity.this, REQUEST_EXTERNAL_STORAGE);
 
-        final String thePackageName = getApplicationContext().getPackageName();
-        final Button recToggleBtn = (Button) findViewById(R.id.recToggle);
+        //reload commercial
+        mInterstitialAd.setAdListener(new AdListener() {
+            @Override
+            public void onAdClosed() {
+                // Load the next interstitial.
+                mInterstitialAd.loadAd(new AdRequest.Builder().build());
+            }
+
+        });
+    }
+
+    private void initButtonBehaviors() {
         recToggleBtn.setOnClickListener(new View.OnClickListener() {
 
             @Override
@@ -201,29 +236,12 @@ public  class MainActivity extends AppCompatActivity implements ActivityCompat.O
                     boolean toggleState = LiveEffectEngine.setToggleRecording();
                     isRecording = toggleState;
                     if (!toggleState) {
-
-                        for (int i = 0; i < preAddEffects.size(); i++) {
-                            if (preAddEffects.get(i).end == 0) {
-                                EffectClass fx = preAddEffects.get(i);
-                                fx.end = (int) (AudioConstants.livePositionBytes / (AudioConstants.deviceSampleRate / 1000f) / 4);
-                                preAddEffects.set(i, fx);
-                            }
-                        }
-                        Collections.sort(preAddEffects, new Comparator<EffectClass>() {
-                            @Override
-                            public int compare(EffectClass effectClass, EffectClass t1) {
-                                return Integer.compare(effectClass.start, t1.start);
-                            }
-
-                        });
-
                         recToggleBtn.setBackground(ContextCompat.getDrawable(MainActivity.this, R.drawable.ic_recbtntry1));
                         System.out.println("oski onDestroy called");
                         LiveEffectEngine.setEffectOn(false);
                         isPlaying = false;
                         AudioConstants.markerEnd = (int) (AudioConstants.livePositionBytes / (AudioConstants.deviceSampleRate / 1000f) / 4f);
                         AudioConstants.markerState = 2;
-
 
                         finish();
                     }
@@ -234,7 +252,6 @@ public  class MainActivity extends AppCompatActivity implements ActivityCompat.O
             }
         });
 
-        playToggleBtn = (Button) findViewById(R.id.playToggle);
         playToggleBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -257,7 +274,6 @@ public  class MainActivity extends AppCompatActivity implements ActivityCompat.O
         playToggleBtn.setBackground(ContextCompat.getDrawable(this, R.drawable.ic_playbtntry1));
         recToggleBtn.setBackground(ContextCompat.getDrawable(this, R.drawable.ic_recbtntry1));
 
-        Button backBtn = (Button) findViewById(R.id.backBtn);
         backBtn.setBackground(ContextCompat.getDrawable(this, R.drawable.ic_backbtntry1));
         backBtn.setOnClickListener(new View.OnClickListener() {
 
@@ -269,7 +285,7 @@ public  class MainActivity extends AppCompatActivity implements ActivityCompat.O
         });
 
 
-        fenderToggleBtn.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+        pianoToggleBtn.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
 
             @Override
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
@@ -328,8 +344,7 @@ public  class MainActivity extends AppCompatActivity implements ActivityCompat.O
             }
         });
 
-        midiStretchBtn = findViewById(R.id.midiStretchBtn);
-        midiMoveBtn = findViewById(R.id.midiMoveBtn);
+
         midiMoveBtn.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 if((AudioConstants.midiEditMode == 1) && AudioConstants.markedMidiNote < 0) {
@@ -368,7 +383,6 @@ public  class MainActivity extends AppCompatActivity implements ActivityCompat.O
             }
         });
 
-        midiAddBtn = findViewById(R.id.midiAddBtn);
         midiAddBtn.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 if(AudioConstants.midiEditMode == 1) {
@@ -390,7 +404,6 @@ public  class MainActivity extends AppCompatActivity implements ActivityCompat.O
             }
         });
 
-        midiDeleteBtn = findViewById(R.id.midiDeleteBtn);
         midiDeleteBtn.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 if(AudioConstants.markedMidiNote >= 0){
@@ -401,7 +414,6 @@ public  class MainActivity extends AppCompatActivity implements ActivityCompat.O
             }
         });
 
-        midiRecActiveToggle = findViewById(R.id.midiRecActiveToggle);
         midiRecActiveToggle.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
 
             @Override
@@ -418,7 +430,6 @@ public  class MainActivity extends AppCompatActivity implements ActivityCompat.O
             }
         });
 
-        playMidiToggleBtn = findViewById(R.id.playMidiToggle);
         playMidiToggleBtn.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
 
             @Override
@@ -436,9 +447,7 @@ public  class MainActivity extends AppCompatActivity implements ActivityCompat.O
             }
         });
 
-        midiEditBtn = findViewById(R.id.midiEditBtn);
 
-        final Button midiClearBtn = findViewById(R.id.midiClearBtn);
         midiClearBtn.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 LiveEffectEngine.clearMidiSong();
@@ -497,7 +506,6 @@ public  class MainActivity extends AppCompatActivity implements ActivityCompat.O
 
         });
 
-        final ToggleButton midiRecToggleBtn = findViewById(R.id.midiRecordToggle);
         midiRecToggleBtn.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
 
             @Override
@@ -527,17 +535,8 @@ public  class MainActivity extends AppCompatActivity implements ActivityCompat.O
             }
         });
 
-        //reload commercial
-        mInterstitialAd.setAdListener(new AdListener() {
-            @Override
-            public void onAdClosed() {
-                // Load the next interstitial.
-                mInterstitialAd.loadAd(new AdRequest.Builder().build());
-            }
 
-        });
 
-        final Button midiExportBtn = findViewById(R.id.midiExportBtn);
         midiExportBtn.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
 
@@ -636,9 +635,7 @@ public  class MainActivity extends AppCompatActivity implements ActivityCompat.O
                 });
             }
         });
-        verifyStoragePermissions(MainActivity.this, REQUEST_EXTERNAL_STORAGE);
 
-        EditText midiInstrNrEdit = (EditText) findViewById(R.id.editMidiInstr);
         midiInstrNrEdit.addTextChangedListener(new TextWatcher() {
 
             public void afterTextChanged(Editable s) {
@@ -653,7 +650,6 @@ public  class MainActivity extends AppCompatActivity implements ActivityCompat.O
             }
         });
 
-        musicVolumeSB = findViewById(R.id.musicvolumeSB);
         musicVolumeSB.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
             @Override
             public void onProgressChanged(SeekBar seekBar, int progress, boolean fromUser) {
@@ -669,7 +665,7 @@ public  class MainActivity extends AppCompatActivity implements ActivityCompat.O
                 LiveEffectEngine.setVolumeMusic(currMusicVol);
             }
         });
-        vocalVolumeSB = findViewById(R.id.vocalvolumeSB);
+
         vocalVolumeSB.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
             @Override
             public void onProgressChanged(SeekBar seekBar, int progress, boolean fromUser) {
@@ -686,7 +682,7 @@ public  class MainActivity extends AppCompatActivity implements ActivityCompat.O
             }
         });
 
-        SeekBar reverbDrySB = findViewById(R.id.reverbDrySB);
+        /*SeekBar reverbDrySB = findViewById(R.id.reverbDrySB);
         reverbDrySB.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
             @Override
             public void onProgressChanged(SeekBar seekBar, int progress, boolean fromUser) {
@@ -701,10 +697,9 @@ public  class MainActivity extends AppCompatActivity implements ActivityCompat.O
             public void onStopTrackingTouch(SeekBar seekBar) {
                 LiveEffectEngine.setReverbDry(currDryWet);
             }
-        });
+        });*/
 
 
-        SeekBar midiThreshSB = findViewById(R.id.midiThreshSB);
         midiThreshSB.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
             @Override
             public void onProgressChanged(SeekBar seekBar, int progress, boolean fromUser) {
@@ -726,12 +721,12 @@ public  class MainActivity extends AppCompatActivity implements ActivityCompat.O
             }
         });
 
-        Spinner dropdown = findViewById(R.id.autoTuneLiveSpinner);
+        /*tuneLineSpinner = findViewById(R.id.autoTuneLiveSpinner);
         final String[] items = new String[]{"C-Major", "C-Minor", "D-Major", "D-Minor", "E-Major", "E-Minor", "F-Major", "F-Minor", "G-Major", "G-Minor", "A-Major", "A-Minor", "B-Major"};
         ArrayAdapter<String> adapter = new ArrayAdapter<>(this, android.R.layout.simple_spinner_dropdown_item, items);
-        dropdown.setAdapter(adapter);
+        tuneLineSpinner.setAdapter(adapter);
 
-        dropdown.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+        tuneLineSpinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             boolean firstStart = true;
 
             @Override
@@ -751,9 +746,8 @@ public  class MainActivity extends AppCompatActivity implements ActivityCompat.O
             public void onNothingSelected(AdapterView<?> parent) {
                 // TODO Auto-generated method stub
             }
-        });
+        });*/
     }
-
 
     private int getPlaybackDeviceId() {
         return ((AudioDeviceListEntry) mPlaybackDeviceSpinner.getSelectedItem()).getId();

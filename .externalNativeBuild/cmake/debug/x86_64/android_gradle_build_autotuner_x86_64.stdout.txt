@@ -1,13 +1,13 @@
-[1/65] Building CXX object CMakeFiles/stkeffect.dir/stkeffect/src/OnePole.cpp.o
-[2/65] Building CXX object CMakeFiles/stkeffect.dir/stkeffect/src/Stk.cpp.o
-[3/65] Building CXX object CMakeFiles/stkeffect.dir/stkeffect/src/Delay.cpp.o
-[4/65] Building CXX object CMakeFiles/stkeffect.dir/stkeffect/src/FreeVerb.cpp.o
-[5/65] Building CXX object CMakeFiles/stkeffect.dir/stkeffect/src/DelayL.cpp.o
-[6/65] Building CXX object CMakeFiles/stkeffect.dir/stkeffect/src/Saxofony.cpp.o
-[7/65] Building CXX object CMakeFiles/stkeffect.dir/stkeffect/src/OneZero.cpp.o
-[8/65] Building CXX object CMakeFiles/stkeffect.dir/stkeffect/src/PitShift.cpp.o
-[9/65] Building CXX object CMakeFiles/stkeffect.dir/stkeffect/src/LentPitShift.cpp.o
-[10/65] Building CXX object CMakeFiles/stkeffect.dir/stkeffect/src/BiQuad.cpp.o
+[1/65] Building CXX object CMakeFiles/stkeffect.dir/stkeffect/src/Stk.cpp.o
+[2/65] Building CXX object CMakeFiles/stkeffect.dir/stkeffect/src/OnePole.cpp.o
+[3/65] Building CXX object CMakeFiles/stkeffect.dir/stkeffect/src/FreeVerb.cpp.o
+[4/65] Building CXX object CMakeFiles/stkeffect.dir/stkeffect/src/Delay.cpp.o
+[5/65] Building CXX object CMakeFiles/stkeffect.dir/stkeffect/src/NRev.cpp.o
+[6/65] Building CXX object CMakeFiles/stkeffect.dir/stkeffect/src/BiQuad.cpp.o
+[7/65] Building CXX object CMakeFiles/stkeffect.dir/stkeffect/src/DelayL.cpp.o
+[8/65] Building CXX object CMakeFiles/stkeffect.dir/stkeffect/src/LentPitShift.cpp.o
+[9/65] Building CXX object CMakeFiles/stkeffect.dir/stkeffect/src/Saxofony.cpp.o
+[10/65] Building CXX object CMakeFiles/stkeffect.dir/stkeffect/src/PitShift.cpp.o
 C:\newproj\rr129-new\samples\instrume\src\main\stkeffect\src\Stk.cpp:59:9: warning: 'RAWWAVE_PATH' macro redefined [-Wmacro-redefined]
 #define RAWWAVE_PATH std::string()
         ^
@@ -15,19 +15,20 @@ C:/newproj/rr129-new/samples/instrume/src/main/stkeffect/include\Stk.h:570:11: n
   #define RAWWAVE_PATH "/storage/emulated/0/RapOnMp3/rawwaves/"
           ^
 1 warning generated.
-[11/65] Building CXX object CMakeFiles/stkeffect.dir/stkeffect/src/NRev.cpp.o
-[12/65] Building CXX object CMakeFiles/stkeffect.dir/stkeffect/src/Envelope.cpp.o
-[13/65] Building CXX object CMakeFiles/stkeffect.dir/stkeffect/src/SineWave.cpp.o
-[14/65] Building CXX object CMakeFiles/stkeffect.dir/stkeffect/src/Wurley.cpp.o
-[15/65] Building CXX object CMakeFiles/stkeffect.dir/stkeffect/src/Rhodey.cpp.o
-[16/65] Building CXX object CMakeFiles/stkeffect.dir/stkeffect/src/Noise.cpp.o
-[17/65] Building CXX object CMakeFiles/stkeffect.dir/stkeffect/src/BlowHole.cpp.o
-[18/65] Building CXX object CMakeFiles/stkeffect.dir/stkeffect/src/FM.cpp.o
+[11/65] Building CXX object CMakeFiles/stkeffect.dir/stkeffect/src/OneZero.cpp.o
+[12/65] Building CXX object CMakeFiles/stkeffect.dir/stkeffect/src/Noise.cpp.o
+[13/65] Building CXX object CMakeFiles/stkeffect.dir/stkeffect/src/Wurley.cpp.o
+[14/65] Building CXX object CMakeFiles/stkeffect.dir/stkeffect/src/BlowHole.cpp.o
+[15/65] Building CXX object CMakeFiles/stkeffect.dir/stkeffect/src/FM.cpp.o
+[16/65] Building CXX object CMakeFiles/stkeffect.dir/stkeffect/src/SineWave.cpp.o
+[17/65] Building CXX object CMakeFiles/stkeffect.dir/stkeffect/src/Rhodey.cpp.o
+[18/65] Building CXX object CMakeFiles/stkeffect.dir/stkeffect/src/Envelope.cpp.o
 [19/65] Building CXX object CMakeFiles/stkeffect.dir/stkeffect/src/FileWvIn.cpp.o
 [20/65] Building CXX object CMakeFiles/stkeffect.dir/stkeffect/src/TwoZero.cpp.o
-[21/65] Building CXX object CMakeFiles/stkeffect.dir/stkeffect/src/ADSR.cpp.o
-[22/65] Building CXX object CMakeFiles/stkeffect.dir/stkeffect/src/FileRead.cpp.o
-[23/65] Building C object CMakeFiles/stkeffect.dir/stkeffect/rawwaves/sine.c.o
+[21/65] Building CXX object CMakeFiles/stkeffect.dir/stkeffect/src/FileRead.cpp.o
+[22/65] Building CXX object CMakeFiles/stkeffect.dir/stkeffect/src/FileLoop.cpp.o
+[23/65] Building CXX object CMakeFiles/stkeffect.dir/stkeffect/src/Guitar.cpp.o
+[24/65] Building C object CMakeFiles/stkeffect.dir/stkeffect/rawwaves/sine.c.o
 C:\newproj\rr129-new\samples\instrume\src\main\stkeffect\rawwaves\sine.c:10:1: warning: return type of 'main' is not 'int' [-Wmain-return-type]
 void main()
 ^
@@ -36,45 +37,48 @@ void main()
 ^~~~
 int
 1 warning generated.
-[24/65] Building CXX object CMakeFiles/stkeffect.dir/stkeffect/src/Guitar.cpp.o
-[25/65] Building CXX object CMakeFiles/stkeffect.dir/stkeffect/src/FileLoop.cpp.o
-[26/65] Building CXX object CMakeFiles/stkeffect.dir/stkeffect/src/Brass.cpp.o
-[27/65] Building CXX object CMakeFiles/stkeffect.dir/stkeffect/src/DelayA.cpp.o
+[25/65] Building CXX object CMakeFiles/stkeffect.dir/stkeffect/src/ADSR.cpp.o
+[26/65] Building CXX object CMakeFiles/stkeffect.dir/stkeffect/src/DelayA.cpp.o
+[27/65] Building CXX object CMakeFiles/stkeffect.dir/stkeffect/src/Twang.cpp.o
 [28/65] Building CXX object CMakeFiles/stkeffect.dir/stkeffect/src/Fir.cpp.o
-[29/65] Building CXX object CMakeFiles/stkeffect.dir/stkeffect/src/Twang.cpp.o
-[30/65] Building CXX object CMakeFiles/stkeffect.dir/stkeffect/src/Phonemes.cpp.o
+[29/65] Building CXX object CMakeFiles/stkeffect.dir/stkeffect/src/Phonemes.cpp.o
+[30/65] Building CXX object CMakeFiles/stkeffect.dir/stkeffect/src/Brass.cpp.o
 [31/65] Building CXX object CMakeFiles/stkeffect.dir/stkeffect/src/Drummer.cpp.o
 [32/65] Building CXX object CMakeFiles/stkeffect.dir/stkeffect/src/RtMidi.cpp.o
 [33/65] Building CXX object CMakeFiles/stkeffect.dir/stkeffect/src/PoleZero.cpp.o
-[34/65] Building CXX object oboe-bin/CMakeFiles/oboe.dir/src/fifo/FifoBuffer.cpp.o
-[35/65] Building CXX object oboe-bin/CMakeFiles/oboe.dir/src/fifo/FifoController.cpp.o
-[36/65] Building CXX object oboe-bin/CMakeFiles/oboe.dir/src/common/AudioStreamBuilder.cpp.o
+[34/65] Building CXX object oboe-bin/CMakeFiles/oboe.dir/src/common/AudioStream.cpp.o
+[35/65] Building CXX object oboe-bin/CMakeFiles/oboe.dir/src/aaudio/AAudioLoader.cpp.o
+[36/65] Building CXX object oboe-bin/CMakeFiles/oboe.dir/src/common/Utilities.cpp.o
 [37/65] Building CXX object oboe-bin/CMakeFiles/oboe.dir/src/common/LatencyTuner.cpp.o
-[38/65] Building CXX object oboe-bin/CMakeFiles/oboe.dir/src/aaudio/AAudioLoader.cpp.o
-[39/65] Building CXX object oboe-bin/CMakeFiles/oboe.dir/src/aaudio/AudioStreamAAudio.cpp.o
-[40/65] Building CXX object oboe-bin/CMakeFiles/oboe.dir/src/common/AudioStream.cpp.o
-[41/65] Building CXX object oboe-bin/CMakeFiles/oboe.dir/src/common/Utilities.cpp.o
-[42/65] Linking CXX shared library C:\newproj\rr129-new\samples\instrume\build\intermediates\cmake\debug\obj\x86_64\libstkeffect.so
-[43/65] Building CXX object oboe-bin/CMakeFiles/oboe.dir/src/opensles/OpenSLESUtilities.cpp.o
-[44/65] Building CXX object oboe-bin/CMakeFiles/oboe.dir/src/opensles/AudioInputStreamOpenSLES.cpp.o
-[45/65] Building CXX object oboe-bin/CMakeFiles/oboe.dir/src/opensles/AudioStreamOpenSLES.cpp.o
+[38/65] Building CXX object oboe-bin/CMakeFiles/oboe.dir/src/aaudio/AudioStreamAAudio.cpp.o
+[39/65] Building CXX object oboe-bin/CMakeFiles/oboe.dir/src/fifo/FifoBuffer.cpp.o
+[40/65] Building CXX object oboe-bin/CMakeFiles/oboe.dir/src/fifo/FifoController.cpp.o
+[41/65] Linking CXX shared library C:\newproj\rr129-new\samples\instrume\build\intermediates\cmake\debug\obj\x86_64\libstkeffect.so
+[42/65] Building CXX object oboe-bin/CMakeFiles/oboe.dir/src/common/AudioStreamBuilder.cpp.o
+[43/65] Building CXX object oboe-bin/CMakeFiles/oboe.dir/src/common/StabilizedCallback.cpp.o
+[44/65] Building CXX object oboe-bin/CMakeFiles/oboe.dir/src/opensles/OpenSLESUtilities.cpp.o
+[45/65] Building CXX object oboe-bin/CMakeFiles/oboe.dir/src/opensles/OutputMixerOpenSLES.cpp.o
 [46/65] Building CXX object oboe-bin/CMakeFiles/oboe.dir/src/common/Trace.cpp.o
-[47/65] Building CXX object oboe-bin/CMakeFiles/oboe.dir/src/fifo/FifoControllerIndirect.cpp.o
-[48/65] Building CXX object oboe-bin/CMakeFiles/oboe.dir/src/opensles/OutputMixerOpenSLES.cpp.o
-[49/65] Building CXX object oboe-bin/CMakeFiles/oboe.dir/src/opensles/AudioOutputStreamOpenSLES.cpp.o
+[47/65] Building CXX object oboe-bin/CMakeFiles/oboe.dir/src/opensles/EngineOpenSLES.cpp.o
+[48/65] Building CXX object oboe-bin/CMakeFiles/oboe.dir/src/opensles/AudioOutputStreamOpenSLES.cpp.o
+[49/65] Building CXX object oboe-bin/CMakeFiles/oboe.dir/src/fifo/FifoControllerIndirect.cpp.o
 [50/65] Building CXX object oboe-bin/CMakeFiles/oboe.dir/src/fifo/FifoControllerBase.cpp.o
-[51/65] Building CXX object oboe-bin/CMakeFiles/oboe.dir/src/opensles/EngineOpenSLES.cpp.o
+[51/65] Building CXX object oboe-bin/CMakeFiles/oboe.dir/src/opensles/AudioInputStreamOpenSLES.cpp.o
 [52/65] Building CXX object oboe-bin/CMakeFiles/oboe.dir/src/opensles/AudioStreamBuffered.cpp.o
-[53/65] Building CXX object oboe-bin/CMakeFiles/oboe.dir/src/common/StabilizedCallback.cpp.o
+[53/65] Building CXX object oboe-bin/CMakeFiles/oboe.dir/src/opensles/AudioStreamOpenSLES.cpp.o
 [54/65] Linking CXX static library oboe-bin\liboboe.a
 [55/65] Building CXX object CMakeFiles/autotuner.dir/C_/newproj/rr129-new/samples/debug-utils/trace.cpp.o
-[56/65] Building CXX object CMakeFiles/autotuner.dir/cpp/debug_utils.cpp.o
-[57/65] Building C object CMakeFiles/autotuner.dir/cpp/kiss_fft/kiss_fft.c.o
-[58/65] Building CXX object CMakeFiles/autotuner.dir/cpp/ece420_lib.cpp.o
-[59/65] Building CXX object CMakeFiles/autotuner.dir/cpp/ece420_main.cpp.o
-[60/65] Building CXX object CMakeFiles/autotuner.dir/cpp/audio_common.cpp.o
-[61/65] Building CXX object CMakeFiles/autotuner.dir/cpp/Util.cpp.o
-[62/65] Building CXX object CMakeFiles/autotuner.dir/cpp/jni_bridge.cpp.o
-[63/65] Building CXX object CMakeFiles/autotuner.dir/cpp/LiveEffectEngine.cpp.o
-[64/65] Building CXX object CMakeFiles/autotuner.dir/cpp/MyNativeEffects.cpp.o
+[56/65] Building CXX object CMakeFiles/autotuner.dir/cpp/audio_common.cpp.o
+[57/65] Building CXX object CMakeFiles/autotuner.dir/cpp/debug_utils.cpp.o
+[58/65] Building CXX object CMakeFiles/autotuner.dir/cpp/ece420_main.cpp.o
+[59/65] Building C object CMakeFiles/autotuner.dir/cpp/kiss_fft/kiss_fft.c.o
+[60/65] Building CXX object CMakeFiles/autotuner.dir/cpp/ece420_lib.cpp.o
+[61/65] Building CXX object CMakeFiles/autotuner.dir/cpp/LiveEffectEngine.cpp.o
+[62/65] Building CXX object CMakeFiles/autotuner.dir/cpp/MyNativeEffects.cpp.o
+[63/65] Building CXX object CMakeFiles/autotuner.dir/cpp/jni_bridge.cpp.o
+[64/65] Building CXX object CMakeFiles/autotuner.dir/cpp/Util.cpp.o
 [65/65] Linking CXX shared library C:\newproj\rr129-new\samples\instrume\build\intermediates\cmake\debug\obj\x86_64\libautotuner.so
+FAILED: cmd.exe /C "cd . && C:\Users\Oskar\AppData\Local\Android\sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin\clang++.exe  --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/Oskar/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Oskar/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot -fPIC -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -O0 -fno-limit-debug-info  -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -shared -Wl,-soname,libautotuner.so -o C:\newproj\rr129-new\samples\instrume\build\intermediates\cmake\debug\obj\x86_64\libautotuner.so CMakeFiles/autotuner.dir/cpp/kiss_fft/kiss_fft.c.o CMakeFiles/autotuner.dir/cpp/ece420_lib.cpp.o CMakeFiles/autotuner.dir/cpp/ece420_main.cpp.o CMakeFiles/autotuner.dir/cpp/audio_common.cpp.o CMakeFiles/autotuner.dir/cpp/debug_utils.cpp.o CMakeFiles/autotuner.dir/cpp/LiveEffectEngine.cpp.o CMakeFiles/autotuner.dir/cpp/Util.cpp.o CMakeFiles/autotuner.dir/cpp/jni_bridge.cpp.o CMakeFiles/autotuner.dir/cpp/MyNativeEffects.cpp.o CMakeFiles/autotuner.dir/C_/newproj/rr129-new/samples/debug-utils/trace.cpp.o  C:/newproj/rr129-new/samples/instrume/src/main/libs/x86_64/libmidi.so C:/newproj/rr129-new/samples/instrume/build/intermediates/cmake/debug/obj/x86_64/libstkeffect.so oboe-bin/liboboe.a -landroid -latomic -llog -ljnigraphics -lOpenSLES -latomic -lm && cd ."
+C:\newproj\rr129-new\src\common/AudioStreamBuilder.cpp:80: error: undefined reference to 'oboe::getVersionText()'
+clang++.exe: error: linker command failed with exit code 1 (use -v to see invocation)
+ninja: build stopped: subcommand failed.
